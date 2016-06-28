@@ -1,5 +1,16 @@
-.primary {
-  color: rgb(90,0,0);
+.cx-toolbar {
+  background-color: hsla(0, 100%, 5%, 0.5);
+  color: #EEE;
+}
+
+.cx-gold {
+  color: hsl(46, 100%, 60%);
+}
+
+.fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+  Every toolbar row uses a flexbox row layout.*/
+  flex: 1 1 auto;
 }
 
 .upholstery {

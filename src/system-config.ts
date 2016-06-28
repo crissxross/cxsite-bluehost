@@ -41,6 +41,11 @@ const packages: any = {
     format: 'cjs',
     defaultExtension: 'js',
     main: 'toolbar.js'
+  },
+  '@angular2-material/icon': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'icon.js'
   }
 };
 
