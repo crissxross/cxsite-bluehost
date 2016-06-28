@@ -1,6 +1,11 @@
 <md-sidenav-layout fullscreen>
   <md-sidenav #sidenav>
-    sidenav
+    <h3>{{title}}</h3>
+    <md-nav-list>
+      <a md-list-item href="http://crissxross.net">Showcase</a>
+      <a md-list-item href="http://crissxross.net/#/about">About me</a>
+      <a md-list-item href="http://crissxross.net/wilx/">Blog</a>
+    </md-nav-list>
   </md-sidenav>
 
   <md-toolbar class="cx-toolbar">
@@ -13,8 +18,62 @@
     <span>about | blog</span>
   </md-toolbar>
 
-  <md-card>
-    card content
-  </md-card>
+  <div class="card-container">
+    <md-card>
+      <md-card-title>Title of Work</md-card-title>
+      <md-card-content>
+        The card content is a description of the work that features, or merely appears, in my crissxross showcase. Whatever form
+        it takes, the piece described is likely to be a work of Electronic Literature.
+      </md-card-content>
+      <!--<md-card-footer>-->
+      <md-card-actions align="end">
+        <button md-raised-button>More details</button>
+        <button md-raised-button>PLAY</button>
+      </md-card-actions>
+      <!--</md-card-footer>-->
+    </md-card>
+
+    <md-card>
+      <md-card-title>Copy of Work</md-card-title>
+      <md-card-content>
+        The card content is a description of the work that features, or merely appears, in my crissxross showcase. Whatever form
+        it takes, the piece described is likely to be a work of Electronic Literature. The card content is a description
+        of the work that features, or merely appears, in my crissxross showcase. Whatever form it takes, the piece described
+        is likely to be a work of Electronic Literature.
+      </md-card-content>
+      <md-card-actions align="end">
+        <button md-raised-button>More details</button>
+        <button md-raised-button>PLAY</button>
+        <!--<button md-fab><md-icon>play_arrow</md-icon></button>-->
+      </md-card-actions>
+    </md-card>
+
+    <md-card>
+      <md-card-title>Copy Two</md-card-title>
+      <md-card-content>
+        The card content is a description of the work that features, or merely appears, in my crissxross showcase. Whatever form
+        it takes, the piece described is likely to be a work of Electronic Literature. The card content is a description
+        of the work that features, or merely appears, in my crissxross showcase.
+      </md-card-content>
+      <md-card-actions align="end">
+        <button md-raised-button>More details</button>
+        <button md-raised-button>PLAY</button>
+      </md-card-actions>
+    </md-card>
+
+    <md-card>
+      <md-card-title>Title Copy Three</md-card-title>
+      <md-card-content>
+        The card content is a description of the work that features, or merely appears, in my crissxross showcase. It is a work of Electronic Literature.
+      </md-card-content>
+      <!--<md-card-footer>-->
+      <md-card-actions align="end">
+        <button md-raised-button>More details</button>
+        <button md-raised-button>PLAY</button>
+      </md-card-actions>
+      <!--</md-card-footer>-->
+    </md-card>
+
+  </div>
 
 </md-sidenav-layout>
