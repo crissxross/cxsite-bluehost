@@ -2,13 +2,7 @@
   background-color: hsla(0, 100%, 5%, 0.5);
   color: #EEE;
 }
-
-md-card {
-  width: 400px;
-  box-sizing: border-box;
-  margin: 16px;
-}
-
+/* Do I need .card-container here? */
 .card-container {
   display: flex;
   flex-flow: row wrap;
@@ -20,4 +14,16 @@ md-card {
   /* This fills the remaining space, by using flexbox.
   Every toolbar row uses a flexbox row layout.*/
   flex: 1 1 auto;
+}
+
+footer {
+  color: #ccc;
+  padding-top: 30px;
+  height: 50px;
+  text-align: center;
+  /*font-size: 0.75em;*/
+}
+
+footer a {
+  color: #ccc;
 }
