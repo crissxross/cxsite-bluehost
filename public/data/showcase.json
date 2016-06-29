@@ -1,0 +1,202 @@
+{
+  "featuredWorks": [
+    {
+      "id": "inkubus",
+      "workUrl": "http://www.dreamingmethods.com/inkubus/",
+      "title": "Inkubus",
+      "description": "Inkubus is a first-person playable coming-of-age story, in media-rich 3D, about a contemporary teenage girl. She’s connected and clued-in but what lurks in the deepest darkest regions beyond the screen?",
+      "imageUrl": "images/inkubus_150x150.jpg",
+      "pubdate": "2014",
+      "tech": "3D (Unity)",
+      "collab": "Made in collaboration with Andy Campbell.",
+      "publisher": "Dreaming Methods",
+      "moreinfo": "Exhibited at E-Poetry 'Words Unstable On The Table' 2013; at the Modern Language Association (MLA) 2014 Convention's Pathfinders Exhibit, and at the Electronic Literature Organization (ELO) 2014 Media Arts Show. It is also published in:",
+      "moreUrl": "http://www.cddc.vt.edu/journals/newriver/14Spring/index.html",
+      "linkText": "The New River Journal, Spring 2014"
+    },
+    {
+      "id": "underbelly",
+      "workUrl": "http://crissxross.net/elit/underbelly.html",
+      "title": "Underbelly",
+      "description": "An award-winning playable story about a woman sculptor, carving on the site of a former colliery in the north of England. As she carves, she is disturbed by a medley of voices, some from the site's dark industrial past, and the player/reader is plunged into an underworld of repressed fears and desires.",
+      "imageUrl": "images/Underbelly150x150.png",
+      "pubdate": "2010",
+      "tech": "Flash",
+      "collab": "",
+      "publisher": "Published in the ELMCIP Anthology of European Electronic Literature, Nov 2012; Studies in the Maternal, Volume 3, Issue 2, 2011; Hyperrhiz.08, Issue 8, Spring 2011.",
+      "moreinfo": "Winner of the New Media Writing Prize 2010 and winner of the MaMSIE Digital Media Competition 2010/11. Underbelly has featured in a number of international exhibitions and has been published in Hyperrhiz.08, Issue 8, Spring 2011; Studies in the Maternal, Volume 3, Issue 2, 2011; and also:",
+      "moreUrl": "http://anthology.elmcip.net/index.html",
+      "linkText": "The ELMCIP Anthology of European Electronic Literature"
+    },
+    {
+      "id": "fitting-the-pattern",
+      "workUrl": "http://crissxross.net/elit/fitting_the_pattern.html",
+      "title": "Fitting the Pattern",
+      "description": "Cutting through memories, pinning down facts, stitching fabrications, unpicking the past - an interactive, animated memoir, exploring aspects of my relationship with my dressmaking mother.",
+      "imageUrl": "images/FitPat_thumb.jpg",
+      "pubdate": "2008",
+      "tech": "Flash",
+      "collab": "",
+      "publisher": "Published in the Electronic Literature Collection, Volume 2, Feb 2011",
+      "moreinfo": "Fitting the Pattern and my parallel lecture about the work, 'Being Creatively Autobiographical in New Media,' published in Studies in the Maternal, Issue Two; and also in:",
+      "moreUrl": "http://collection.eliterature.org/2/works/wilks_fittingthepattern.html",
+      "linkText": "The Electronic Literature Collection, Volume Two"
+    },
+    {
+      "id": "tailspin",
+      "workUrl": "http://crissxross.net/elit/Tailspin.html",
+      "title": "Tailspin",
+      "description": "An old man's Tinnitus and partial deafness is a source of friction between him, his daughter and grandchildren yet he stubbornly refuses to contemplate treatment or hearing aids. His daughter is hurt and mystified by his angry reactions, but the key to his behaviour lies deep in the past.",
+      "imageUrl": "images/Tailspin_thumb.png",
+      "pubdate": "2008",
+      "tech": "Flash",
+      "collab": "",
+      "publisher": "Published in the Electronic Literature Collection, Volume 2, Feb 2011",
+      "moreinfo": "Tailspin is published in:",
+      "moreUrl": "http://collection.eliterature.org/2/works/wilks_tailspin.html",
+      "linkText": "The Electronic Literature Collection, Volume Two"
+    },
+    {
+      "id": "rememori",
+      "workUrl": "http://crissxross.net/elit/rememori.html",
+      "title": "Rememori",
+      "description": "A degenerative memory game and playable poem that grapples with the effects of dementia on an intimate circle of characters.",
+      "imageUrl": "images/Rememori_thumb.png",
+      "pubdate": "2011",
+      "tech": "Flash",
+      "collab": "",
+      "publisher": "The New River Journal, Spring 2012",
+      "moreinfo": "Rememori has been exhibited at The New Works Festival, TheatreWorks, Silicon Valley, and at the 'Avenues of Access' exhibit of electronic literature a the Modern Language Association 2013 Convention. It is also published in:",
+      "moreUrl": "http://www.cddc.vt.edu/journals/newriver/12Spring/index.html",
+      "linkText": "The New River Journal, Spring 2012"
+    },
+    {
+      "id": "out-of-touch",
+      "workUrl": "http://crissxross.net/oot/outoftouch.html",
+      "title": "Out of Touch",
+      "description": "In our world of perpetual connectivity, touching interfaces that keep us out of reach, we form attachments whilst remaining detached, by turns kindling and dampening emotions.",
+      "imageUrl": "images/OOT_thumbnail.jpg",
+      "pubdate": "2011",
+      "tech": "Flash",
+      "collab": "",
+      "publisher": "SFMOMA's Open Space; Mad Hatters' Review",
+      "moreinfo": "Out of Touch was commissioned by the San Francisco Museum of Modern Art for the Third Hand Plays series published at SFMOMA's Open Space in August 2011. It was also published in the Mad Hatters' Review Issue 13. I went on to develop further variations of the work: I/O Out Of Touch for live performance (see below). Read SFMOMA curator, Brian Stefans' SFMOMA statement:",
+      "moreUrl": "http://openspace.sfmoma.org/2011/07/third-hand-plays-out-of-touch-by-christine-wilks/",
+      "linkText": "Third Hand Plays: “Out of Touch” by Christine Wilks"
+    },
+    {
+      "id": "upsidedown-chandelier",
+      "workUrl": "http://crissxross.net/remixworx/Tabacka-6.html",
+      "title": "Upside Down Chandelier",
+      "description": "A digital installation by an international group of women artists responding to the idea of repurposing in relation to our residency at DIG Gallery in a former Slovak tobacco factory which had employed mostly women.",
+      "imageUrl": "images/upsidedownchandelier.png",
+      "pubdate": "2013/2014",
+      "tech": "Flash (web version)",
+      "collab": "Made in collaboration with María Mencía, Jeneen Naji and Zuzana Husárová.",
+      "publisher": "María Mencía",
+      "moreinfo": "\"This multiplatform digital work references an event connected with the history of Košice and its tobacco factory from 1851 which employed mostly women workers. Some decades later, when St. Elizabeth's Cathedral was being renovated, the women workers donated a candle chandelier. The chandelier itself was repurposed twice – from the original candles, to gas lighting and with the advent of electricity, was turned upside down. In the installation, images of the chandelier from the cathedral are randomly generated and projected onto a screen in a flux of forms. Simultaneously the words connected with this story appear projected on the walls of the room, and phonetic sounds from Slovakian, Hungarian and German are generatively mixed in to create the soundscape of languages that were once spoken in the very same place by women workers\" (María Mencía 2013).",
+      "moreUrl": "http://www.mariamencia.com/pages/upsidedown.html",
+      "linkText": "Upside Down Chandelier: installation at DIG Gallery, Slovakia, Nov 2013"
+    },
+    {
+      "id": "revolution-of-words",
+      "workUrl": "http://crissxross.github.io/RevolOWords/",
+      "title": "A Revolution of Words",
+      "description": "A Revolution of Words invites the speculative reader to 'Spin the Revolution' and thus a play on words becomes a game of chance where meaning is at stake. In memory of Randy Adams (1951-2014).",
+      "imageUrl": "images/RevolScreenThumb150.jpg",
+      "pubdate": "2013",
+      "tech": "HTML5 & JavaScript",
+      "collab": "Made in collaboration with Randy Adams (aka runran).",
+      "publisher": "remixworx",
+      "moreinfo": "Try our useful online tool to find new meaning in your life. Give it a spin and see which dictum, watchword, slogan, epigram, mantra, motto, pitch, patter or spiel fortune favours for you!",
+      "moreUrl": "http://remixworx.com/?p=2345",
+      "linkText": "A Revolution of Words at R3M1XW0RX"
+    },
+    {
+      "id": "crissxross-trail-remixworx",
+      "workUrl": "http://crissxross.net/remixworx/indexcxtrail.html",
+      "title": "A crissxross trail < R3M1XW0RX",
+      "subtitle": "one remix player's scenic route through remixworx",
+      "description": "Conceived as a poetic interactive infographic with lots of multimedia animated content, this 'scenic route' presents a sample trail of 33 remixes out of over 100 that I've created since joining remixworx, a collaborative online creative project, in Jan 2007.",
+      "imageUrl": "images/janus.jpg",
+      "pubdate": "2012",
+      "tech": "HTML, Flash & video",
+      "collab": "",
+      "publisher": "",
+      "moreinfo": "I gave live presentations of my crissxross trail of remixes at the ELMCIP conference on Remediating the Social (2012) and the HERA Joint Research Programme Final Conference and Humanities Festival (2013). The R3M1XW0RX site hosts more than 500 remixes of digital art, animation, sound, music, poetry and writing. See more here:",
+      "moreUrl": "http://remixworx.com",
+      "linkText": "R3M1XW0RX"
+    },
+    {
+      "id": "remixworx",
+      "workUrl": "http://remixworx.com",
+      "title": "R3M1XW0RX",
+      "description": "Remixworx is a collaborative space for remixing visual poetry, e-poetry, playable media, animation, art, music, spoken word, texts and more. Initiated by Randy Adams as a blog in November 2006, it has grown to number well over 500 individual creative works. I've contributed approximately 100.",
+      "imageUrl": "images/devilsrope.jpg",
+      "pubdate": "2006 ongoing",
+      "tech": "Various media",
+      "collab": "Made by R3M1XW0RX remixers",
+      "publisher": "R3M1XW0RX",
+      "kudos": "",
+      "moreinfo": "R3M1XW0RX is a tribute to the creativity, generosity and unique spirit of Randy Adams, aka runran, who died on 25 April 2014.",
+      "moreUrl": "http://remixworx.com",
+      "linkText": "remixworx blog (where the remixing happens)"
+    }
+  ],
+  "listWorks": [
+      {
+        "title": "I/O Out of Touch",
+        "workUrl": "http://crissxross.net/oot/indexoot.html",
+        "description": "variations for live digital text performance",
+        "imageUrl": "",
+        "pubdate": "2012",
+        "tech": "Flash",
+        "moreinfo": ""
+      },
+      {
+        "title": "Heights",
+        "workUrl": "http://crissxross.net/MovingPix/Heights.html",
+        "description": "animated e-poem",
+        "imageUrl": "",
+        "pubdate": "2006",
+        "tech": "Flash",
+        "moreinfo": ""
+      },
+      {
+        "title": "IntraVenus",
+        "workUrl": "http://crissxross.net/MovingPix/IntraVenus.html",
+        "description": "dark musings on the artist's muse",
+        "imageUrl": "",
+        "pubdate": "2005",
+        "tech": "Flash",
+        "moreinfo": ""
+      },
+      {
+        "title": "We Drank",
+        "workUrl": "http://crissxross.net/MovingPix/We_Drank.html",
+        "description": "animated e-poem",
+        "imageUrl": "",
+        "pubdate": "2005",
+        "tech": "Flash",
+        "moreinfo": ""
+      },
+      {
+        "title": "Social Dis-Ease",
+        "workUrl": "http://crissxross.net/MovingPix/SocialDis-Ease.html",
+        "description": "animated e-poem",
+        "imageUrl": "",
+        "pubdate": "2004",
+        "tech": "Flash",
+        "moreinfo": ""
+      },
+      {
+        "title": "Sitting Pretty",
+        "workUrl": "http://crissxross.net/MovingPix/BeforeWeBegin/index.html",
+        "description": "hypertext with multimedia",
+        "imageUrl": "",
+        "pubdate": "2004",
+        "tech": "HTML",
+        "moreinfo": ""
+      }
+    ]
+}

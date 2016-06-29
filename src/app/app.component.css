@@ -6,13 +6,13 @@
 md-card {
   width: 400px;
   box-sizing: border-box;
-  margin: 16px auto;
+  margin: 16px;
 }
 
 .card-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
 }
 
