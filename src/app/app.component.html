@@ -2,29 +2,30 @@
   <md-sidenav #sidenav>
     <h3>{{title}}</h3>
     <md-nav-list>
-      <a md-list-item href="http://crissxross.net">Showcase</a>
-      <a md-list-item href="http://crissxross.net/#/about">About me</a>
+      <a md-list-item [routerLink]="['/showcase']">Showcase</a>
+      <a md-list-item [routerLink]="['/about']">About me</a>
       <a md-list-item href="http://crissxross.net/wilx/">Blog</a>
     </md-nav-list>
   </md-sidenav>
 
   <md-toolbar class="cx-toolbar">
     <button md-icon-button (click)="sidenav.open()">
-    <md-icon>menu</md-icon>
-  </button>
+      <md-icon>menu</md-icon>
+    </button>
     <h3>{{title}}</h3>
     <!-- This fills the remaining space of the current row -->
     <span class="fill-remaining-space"></span>
-    <span>about | blog</span>
+    <span><small>Christine Wilks</small></span>
+    <!--<span>about | blog</span>-->
   </md-toolbar>
 
-    <app-showcase></app-showcase>
+  <router-outlet></router-outlet>
 
   <footer>
-      <small>Interactive Storytelling by Christine Wilks<br>
+    <small>Interactive Storytelling & digital artworks by Christine Wilks<br>
          This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution-NonCommercial-NoDerivs 2.0 UK: England &amp; Wales License</a><br>
          <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/2.0/uk/80x15.png" /></a><br>
          <a href="http://lea.verou.me/css3patterns/#upholstery">CSS3 upholstery pattern</a> by Nate Eagle</small>
-    </footer>
+  </footer>
 
 </md-sidenav-layout>
