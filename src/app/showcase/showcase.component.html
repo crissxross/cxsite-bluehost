@@ -1,6 +1,6 @@
 <div class="card-container">
 
-    <md-card *ngFor="let featuredWork of featuredWorks">
+    <md-card *ngFor="let featuredWork of featuredWork$ | async">
       <md-card-title>{{featuredWork.title}}</md-card-title>
       <md-card-content>
         <p>{{featuredWork.description}}</p>
@@ -13,7 +13,7 @@
       </md-card-actions>
     </md-card>
 
-    <md-card *ngFor="let listWork of listWorks">
+    <md-card *ngFor="let listWork of listWork$ | async">
       <md-card-title>{{listWork.title}}</md-card-title>
       <md-card-content>
         {{listWork.description}}. <small>{{listWork.tech}}, {{listWork.pubdate}}</small>

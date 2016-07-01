@@ -1,6 +1,7 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MD_CARD_DIRECTIVES } from '@angular2-material/card';
 import { MD_BUTTON_DIRECTIVES } from '@angular2-material/button';
+import {Observable} from 'rxjs/Observable';
 
 import { DataService } from '../shared/data.service';
 
@@ -13,24 +14,14 @@ import { DataService } from '../shared/data.service';
 })
 export class ShowcaseComponent implements OnInit {
 
-  featuredWorks: any[];
-  listWorks: any[];
+  featuredWork$: Observable<any>;
+  listWork$: Observable<any>;
 
   constructor(private _dataService: DataService) { }
 
   ngOnInit() {
-    this._dataService.getFeaturedWorks()
-      .subscribe((featuredWorks) => this.featuredWorks = featuredWorks,
-      (err) => { console.log(err); }
-    );
-    this._dataService.getListWorks()
-      .subscribe((listWorks) => this.listWorks = listWorks,
-      (err) => { console.log(err); }
-      );
+    this.featuredWork$ = this._dataService.getFeaturedWorks();
+    this.listWork$ = this._dataService.getListWorks();
   }
-
-  // onPlay() {
-
-  // }
 
 }
