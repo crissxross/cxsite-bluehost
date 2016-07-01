@@ -1,12 +1,26 @@
 <div class="card-container">
-    <md-card>
-      <md-card-title>Title of Work</md-card-title>
+
+    <md-card *ngFor="let featuredWork of featuredWorks">
+      <md-card-title>{{featuredWork.title}}</md-card-title>
       <md-card-content>
-        This card is from the <strong>Showcase Component</strong>. Its content is a description of a creative work that features or is listed in my <a href="http://crissxross.net">crissxross</a> showcase. Whatever form it takes, the piece described is likely to be a work of Electronic Literature.
+        <p>{{featuredWork.description}}</p>
+        <p>{{featuredWork.collab}}</p>
+        <small>{{featuredWork.tech}}, {{featuredWork.pubdate}}</small>
       </md-card-content>
       <md-card-actions align="end">
         <button md-raised-button>More details</button>
-        <button md-raised-button>PLAY</button>
+        <a md-raised-button md-anchor href={{featuredWork.workUrl}}>PLAY</a>
       </md-card-actions>
     </md-card>
+
+    <md-card *ngFor="let listWork of listWorks">
+      <md-card-title>{{listWork.title}}</md-card-title>
+      <md-card-content>
+        {{listWork.description}}. <small>{{listWork.tech}}, {{listWork.pubdate}}</small>
+      </md-card-content>
+      <md-card-actions align="end">
+        <a md-raised-button md-anchor href={{listWork.workUrl}}>PLAY</a>
+      </md-card-actions>
+    </md-card>
+
 </div>
