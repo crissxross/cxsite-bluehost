@@ -10,3 +10,9 @@ md-card {
   justify-content: center;
   align-items: flex-start;
 }
+
+md-card-footer {
+  color: #9A9A9A;
+  font-size: 0.75em;
+  line-height: 0.6em;
+}
