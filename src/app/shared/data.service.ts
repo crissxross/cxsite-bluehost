@@ -28,7 +28,12 @@ export class DataService {
       .catch(this.handleError);
   }
 
-private handleError(error: Response) {
+  getDetailWork(id: string) {
+    return this.getFeaturedWorks()
+      .map(featuredWorks => featuredWorks.filter(work => work.id === id)[0]);
+  }
+
+  private handleError(error: Response) {
     console.error(error);
     return Observable.throw(error.json().error || 'Server error');
   }

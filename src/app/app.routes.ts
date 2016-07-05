@@ -7,8 +7,8 @@ import { AboutComponent } from './about/about.component';
 export const routes: RouterConfig = [
   { path: '', redirectTo: '/showcase', terminal: true },
   { path: 'showcase', component: ShowcaseComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'showcase/:id', component: ShowcaseDetailComponent }
+  { path: 'showcase/:id', component: ShowcaseDetailComponent },
+  { path: 'about', component: AboutComponent }
 ];
 
 export const APP_ROUTER_PROVIDERS = [

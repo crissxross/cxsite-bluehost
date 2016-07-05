@@ -1,3 +1,18 @@
-<p>
-  showcase-detail works!
-</p>
+<div class="card-container">
+  <md-card>
+    <md-card-subtitle>Showcase Details</md-card-subtitle>
+    <md-card-title>{{work.title}}</md-card-title>
+    <md-card-subtitle>{{work.collab}}</md-card-subtitle>
+    <md-card-content>
+      <p>{{work.description}}</p>
+      <p>{{work.moreinfo}}</p>
+      <p>{{work.publisher}}</p>
+      <p><a href="{{work.moreUrl}}">{{work.linkText}}</a></p>
+      <p>{{work.tech}}, {{work.pubdate}}</p>
+    </md-card-content>
+    <md-card-actions>
+      <a md-raised-button [routerLink]="['/showcase']">back</a>
+      <a md-raised-button href={{work.workUrl}} target="_blank">PLAY</a>
+    </md-card-actions>
+  </md-card>
+</div>

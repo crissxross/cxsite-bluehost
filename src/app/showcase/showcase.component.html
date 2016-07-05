@@ -1,27 +1,20 @@
 <div class="card-container">
 
   <md-card *ngFor="let featuredWork of featuredWork$ | async">
-    <!--<md-card-header>
-      <img md-card-avatar [alt]="featuredWork.id" src="img/{{featuredWork.id}}.png">
-      <md-card-title>{{featuredWork.title}}</md-card-title>
-    </md-card-header>-->
-    <!--<md-card-title-group>-->
     <md-card-title>{{featuredWork.title}}</md-card-title>
-    <!--<md-card-subtitle>{{featuredWork.tech}}, {{featuredWork.pubdate}}</md-card-subtitle>-->
     <img md-card-image [alt]="featuredWork.id" src="img/{{featuredWork.id}}.png">
-    <!--</md-card-title-group>-->
     <md-card-content>
       <p>{{featuredWork.description}}</p>
       <p>{{featuredWork.collab}}</p>
-      <!--<small>{{featuredWork.tech}}, {{featuredWork.pubdate}}</small>-->
     </md-card-content>
     <md-card-footer>
       <p>{{featuredWork.tech}}</p>
       <p>{{featuredWork.pubdate}}</p>
     </md-card-footer>
       <md-card-actions align="end">
-        <button md-raised-button>More details</button>
-        <a md-raised-button md-anchor href={{featuredWork.workUrl}}>PLAY</a>
+        <!--<button md-raised-button (click)="gotoDetail()">More details</button>-->
+        <a md-raised-button md-anchor [routerLink]="['/showcase', featuredWork.id]">more details</a>
+        <a md-raised-button md-anchor href={{featuredWork.workUrl}} target="_blank">PLAY</a>
       </md-card-actions>
   </md-card>
 
@@ -38,7 +31,7 @@
       <p>{{listWork.pubdate}}</p>
     </md-card-footer>
     <md-card-actions align="end">
-      <a md-raised-button md-anchor href={{listWork.workUrl}}>PLAY</a>
+      <a md-raised-button md-anchor href={{listWork.workUrl}} target="_blank">PLAY</a>
     </md-card-actions>
   </md-card>
 
