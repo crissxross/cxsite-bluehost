@@ -1,12 +1,12 @@
 <div class="card-container">
   <md-card>
-    <md-card-subtitle>Showcase Details</md-card-subtitle>
     <md-card-title>{{work.title}}</md-card-title>
-    <md-card-subtitle>{{work.collab}}</md-card-subtitle>
+    <img md-card-image [alt]="work.id" src="img/{{work.id}}.png">
     <md-card-content>
       <p>{{work.description}}</p>
+      <p>{{work.collab}}</p>
+      <h4>More details</h4>
       <p>{{work.moreinfo}}</p>
-      <p>{{work.publisher}}</p>
       <p><a href="{{work.moreUrl}}">{{work.linkText}}</a></p>
       <p>{{work.tech}}, {{work.pubdate}}</p>
     </md-card-content>

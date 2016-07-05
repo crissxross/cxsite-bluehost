@@ -16,6 +16,17 @@
   flex: 1 1 auto;
 }
 
+.sidenav {
+  padding: 0 16px;
+}
+
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.2em; }
+h3 {
+  font-size: .75em;
+  font-weight: normal;
+}
+
 footer {
   color: #BDBDBD;
   padding-top: 30px;

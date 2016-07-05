@@ -1,12 +1,10 @@
 <md-sidenav-layout fullscreen>
   <md-sidenav #sidenav>
-    <h3>{{title}}</h3>
+    <h2 class="sidenav">{{title}}</h2>
     <md-nav-list>
       <a md-list-item [routerLink]="['/showcase']">Showcase</a>
       <a md-list-item [routerLink]="['/about']">About me</a>
       <a md-list-item href="http://crissxross.net/wilx/">Blog</a>
-      <!-- TEMPORARY link to Inkubus DETAIL page -->
-      <!--<a md-list-item [routerLink]="['/showcase/inkubus']">Inkubus</a>-->
     </md-nav-list>
   </md-sidenav>
 
@@ -14,10 +12,10 @@
     <button md-icon-button (click)="sidenav.open()">
       <md-icon>menu</md-icon>
     </button>
-    <h3>{{title}}</h3>
+    <h1>{{title}}</h1>
     <!-- This fills the remaining space of the current row -->
     <span class="fill-remaining-space"></span>
-    <span><small>Christine Wilks</small></span>
+    <span><h3>creative works by Christine Wilks</h3></span>
     <!--<span>about | blog</span>-->
   </md-toolbar>
 
