@@ -21,6 +21,8 @@ export class ShowcaseComponent implements OnInit {
 
   featuredWork$: Observable<any>;
   listWork$: Observable<any>;
+  showingMore = false;
+  selectedWork = null;
   // work$: Observable<any>;
   // work: any;
 
@@ -33,8 +35,15 @@ export class ShowcaseComponent implements OnInit {
     this.listWork$ = this._dataService.getListWorks();
   }
 
-  // gotoDetail() {
-  //   this._router.navigate(['/detail', this.work.id]);
-  // }
+  showMore(featuredWork) {
+    this.selectedWork = featuredWork;
+    console.log('selectedWork:', this.selectedWork.id);
+    this.showingMore = true;
+  }
+
+  showLess() {
+    this.showingMore = false;
+    this.selectedWork = null;
+  }
 
 }

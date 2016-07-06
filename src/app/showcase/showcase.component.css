@@ -16,3 +16,12 @@ md-card-footer {
   font-size: 0.75em;
   line-height: 0.6em;
 }
+
+md-card-content a {
+  color: #B71C1C;
+  text-decoration: none;
+}
+
+md-card-content a:hover {
+  text-decoration: underline;
+}
