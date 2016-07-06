@@ -35,6 +35,7 @@ export class ShowcaseComponent implements OnInit {
     this.listWork$ = this._dataService.getListWorks();
   }
 
+// might need to use OBSERVABLES for this functionality
   showMore(featuredWork) {
     this.selectedWork = featuredWork;
     console.log('selectedWork:', this.selectedWork.id);
