@@ -1,0 +1,34 @@
+<div class="card-container">
+
+<md-card *ngFor="let featuredWork of featuredWorks | async">
+
+    <md-card-title>{{featuredWork.title}}</md-card-title>
+    <img md-card-image [alt]="featuredWork.id" src="img/{{featuredWork.id}}.png">
+    <md-card-content>
+      <p>{{featuredWork.description}}</p>
+      <p>{{featuredWork.collab}}</p>
+    </md-card-content>
+
+    <md-card-content *ngIf="featuredWork === selectedWork">
+      <p>{{featuredWork.moreinfo}}</p>
+      <p><a href="{{featuredWork.moreUrl}}">{{featuredWork.linkText}}</a></p>
+    </md-card-content>
+
+    <md-card-footer>
+      <p>{{featuredWork.tech}}</p>
+      <p>{{featuredWork.pubdate}}</p>
+    </md-card-footer>
+
+    <md-card-actions align="end">
+      <button md-raised-button *ngIf="!selectedWork" (click)="showMore(featuredWork)">
+        more info
+      </button>
+      <button md-raised-button *ngIf="featuredWork === selectedWork" (click)="showLess()">
+        less info
+      </button>
+      <a md-raised-button md-anchor href={{featuredWork.workUrl}} target="_blank">PLAY</a>
+    </md-card-actions>
+    
+  </md-card>
+
+</div>

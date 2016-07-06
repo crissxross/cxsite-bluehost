@@ -73,6 +73,8 @@ const barrels: string[] = [
   'app/showcase',
   'app/about',
   'app/showcase/showcase-detail',
+  'app/showcase/featured-works',
+  'app/showcase/list-works',
   /** @cli-barrel */
 ];
 
