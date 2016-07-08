@@ -20,7 +20,7 @@
     </md-card-footer>
 
     <md-card-actions align="end">
-      <button md-raised-button *ngIf="!selectedWork" (click)="showMore(featuredWork)">
+      <button md-raised-button *ngIf="!isSelected" (click)="showMore(featuredWork)">
         more info
       </button>
       <button md-raised-button *ngIf="featuredWork === selectedWork" (click)="showLess()">
@@ -28,7 +28,7 @@
       </button>
       <a md-raised-button md-anchor href={{featuredWork.workUrl}} target="_blank">PLAY</a>
     </md-card-actions>
-    
+
   </md-card>
 
 </div>

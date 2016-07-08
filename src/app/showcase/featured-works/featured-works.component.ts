@@ -12,9 +12,8 @@ import { MD_BUTTON_DIRECTIVES } from '@angular2-material/button';
 export class FeaturedWorksComponent implements OnInit {
 
   @Input() featuredWorks;
-  @Input() isSelected; // UNFINISHED!!!!!!!!!
+  // @Input() isSelected; // UNFINISHED!!!!!!!!!
 
-  showingMore = false;
   selectedWork = null;
 
   constructor() {}
@@ -24,14 +23,15 @@ export class FeaturedWorksComponent implements OnInit {
 
   // might need to use OBSERVABLES for this functionality
   showMore(featuredWork) {
+    let isSelected = false;
     this.selectedWork = featuredWork;
     console.log('showMore selectedWork:', this.selectedWork.id);
-    this.showingMore = true;
-    return this.isSelected = this.selectedWork; // UNFINISHED!!!!!!!!
+    return isSelected = true; // UNFINISHED!!!!!!!!
   }
 
+  // Or create a TOGGLE BUTTON?
+
   showLess() {
-    this.showingMore = false;
     this.selectedWork = null;
   }
 
