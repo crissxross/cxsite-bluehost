@@ -1,10 +1,10 @@
 import { Directive, HostBinding, HostListener, Input, Output, EventEmitter } from '@angular/core';
 
 @Directive({
-  selector: '[collapse-toggle]',
+  selector: '[collapseToggle]',
   exportAs: 'collapsible'
 })
-export class CollapseToggle {
+export class CollapseToggleDirective {
 
   @Input('collapsed') isCollapsed = true;
 
