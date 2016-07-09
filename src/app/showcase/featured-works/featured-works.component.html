@@ -7,11 +7,8 @@
     <md-card-content>
       <p>{{featuredWork.description}}</p>
       <p>{{featuredWork.collab}}</p>
-    </md-card-content>
-
-    <md-card-content *ngIf="featuredWork === selectedWork">
-      <p>{{featuredWork.moreinfo}}</p>
-      <p><a href="{{featuredWork.moreUrl}}">{{featuredWork.linkText}}</a></p>
+      <p *ngIf="!panel.collapsed">{{featuredWork.moreinfo}}</p>
+      <p *ngIf="!panel.collapsed"><a href="{{featuredWork.moreUrl}}">{{featuredWork.linkText}}</a></p>
     </md-card-content>
 
     <md-card-footer>
@@ -20,12 +17,11 @@
     </md-card-footer>
 
     <md-card-actions align="end">
-      <button md-raised-button *ngIf="!isSelected" (click)="showMore(featuredWork)">
-        more info
+      <button md-raised-button collapse-toggle #panel="collapsible">
+        <span *ngIf="panel.collapsed">more info</span>
+        <span *ngIf="!panel.collapsed">less info</span>
       </button>
-      <button md-raised-button *ngIf="featuredWork === selectedWork" (click)="showLess()">
-        less info
-      </button>
+
       <a md-raised-button md-anchor href={{featuredWork.workUrl}} target="_blank">PLAY</a>
     </md-card-actions>
 
