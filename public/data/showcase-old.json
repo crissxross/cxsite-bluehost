@@ -10,19 +10,9 @@
       "tech": "3D (Unity)",
       "collab": "Made in collaboration with Andy Campbell.",
       "publisher": "Dreaming Methods",
-      "moreinfo": "Published or exhibited at:",
+      "moreinfo": "Exhibited at E-Poetry 'Words Unstable On The Table' 2013; at the Modern Language Association (MLA) 2014 Convention's Pathfinders Exhibit, and at the Electronic Literature Organization (ELO) 2014 Media Arts Show. It is also published in:",
       "moreUrl": "http://www.cddc.vt.edu/journals/newriver/14Spring/index.html",
-      "linkText": "The New River Journal, Spring 2014",
-      "accolades": [
-        {"name": "E-Poetry 'Words Unstable On The Table' 2013",
-        "url": "https://www.watermans.org.uk/new-media-arts-archive/words-unstable-on-the-table-2013/"},
-        {"name": "Modern Language Association (MLA) 2014 Convention's Pathfinders Exhibit",
-        "url": "http://dtc-wsuv.org/wp/pathfinders/exhibit/"},
-        {"name": "Electronic Literature Organization (ELO) 2014 Media Arts Show",
-        "url": "http://conference.eliterature.org/2014/media"},
-        {"name": "The New River Journal, Spring 2014",
-        "url": "http://www.cddc.vt.edu/journals/newriver/14Spring/index.html"}
-      ]
+      "linkText": "The New River Journal, Spring 2014"
     },
     {
       "id": "underbelly",
@@ -36,19 +26,7 @@
       "publisher": "Published in the ELMCIP Anthology of European Electronic Literature, Nov 2012; Studies in the Maternal, Volume 3, Issue 2, 2011; Hyperrhiz.08, Issue 8, Spring 2011.",
       "moreinfo": "Winner of the New Media Writing Prize 2010 and winner of the MaMSIE Digital Media Competition 2010/11. Underbelly has featured in a number of international exhibitions and has been published in Hyperrhiz.08, Issue 8, Spring 2011; Studies in the Maternal, Volume 3, Issue 2, 2011; and also:",
       "moreUrl": "http://anthology.elmcip.net/index.html",
-      "linkText": "The ELMCIP Anthology of European Electronic Literature",
-      "accolades": [
-        {"name": "The ELMCIP Anthology of European Electronic Literature (Nov 2012)",
-        "url": "http://anthology.elmcip.net/index.html"},
-        {"name": "Winner of the New Media Writing Prize 2010",
-        "url": ""},
-        {"name": "Winner of the MaMSIE Digital Media Competition 2010/11",
-        "url": ""},
-        {"name": "Hyperrhiz.08, Issue 8, Spring 2011",
-        "url": ""},
-        {"name": "Studies in the Maternal, Volume 3, Issue 2, 2011",
-        "url": ""}
-      ]
+      "linkText": "The ELMCIP Anthology of European Electronic Literature"
     },
     {
       "id": "fitting-the-pattern",
@@ -62,13 +40,7 @@
       "publisher": "Published in the Electronic Literature Collection, Volume 2, Feb 2011",
       "moreinfo": "Fitting the Pattern and my parallel lecture about the work, 'Being Creatively Autobiographical in New Media,' published in Studies in the Maternal, Issue Two; and also in:",
       "moreUrl": "http://collection.eliterature.org/2/works/wilks_fittingthepattern.html",
-      "linkText": "The Electronic Literature Collection, Volume Two",
-      "accolades": [
-        {"name": "The Electronic Literature Collection, Volume Two",
-        "url": "http://collection.eliterature.org/2/works/wilks_fittingthepattern.html"},
-        {"name": "",
-        "url": ""}
-      ]
+      "linkText": "The Electronic Literature Collection, Volume Two"
     },
     {
       "id": "tailspin",
@@ -82,13 +54,7 @@
       "publisher": "Published in the Electronic Literature Collection, Volume 2, Feb 2011",
       "moreinfo": "Tailspin is published in:",
       "moreUrl": "http://collection.eliterature.org/2/works/wilks_tailspin.html",
-      "linkText": "The Electronic Literature Collection, Volume Two",
-      "accolades": [
-        {"name": "The Electronic Literature Collection, Volume Two",
-        "url": "http://collection.eliterature.org/2/works/wilks_tailspin.html"},
-        {"name": "",
-        "url": ""}
-      ]
+      "linkText": "The Electronic Literature Collection, Volume Two"
     },
     {
       "id": "rememori",
@@ -102,15 +68,7 @@
       "publisher": "The New River Journal, Spring 2012",
       "moreinfo": "Rememori has been exhibited at The New Works Festival, TheatreWorks, Silicon Valley, and at the 'Avenues of Access' exhibit of electronic literature a the Modern Language Association 2013 Convention. It is also published in:",
       "moreUrl": "http://www.cddc.vt.edu/journals/newriver/12Spring/index.html",
-      "linkText": "The New River Journal, Spring 2012",
-      "accolades": [
-        {"name": "The New River Journal, Spring 2012",
-        "url": "http://www.cddc.vt.edu/journals/newriver/12Spring/index.html"},
-        {"name": "The New Works Festival, TheatreWorks, Silicon Valley",
-        "url": ""},
-        {"name": "'Avenues of Access' exhibit of electronic literature a the Modern Language Association 2013 Convention",
-        "url": ""}
-      ]
+      "linkText": "The New River Journal, Spring 2012"
     },
     {
       "id": "out-of-touch",
@@ -124,13 +82,7 @@
       "publisher": "SFMOMA's Open Space; Mad Hatters' Review",
       "moreinfo": "Out of Touch was commissioned by the San Francisco Museum of Modern Art for the Third Hand Plays series published at SFMOMA's Open Space in August 2011. It was also published in the Mad Hatters' Review Issue 13. I went on to develop further variations of the work: I/O Out Of Touch for live performance (see below). Read SFMOMA curator, Brian Stefans' SFMOMA statement:",
       "moreUrl": "http://openspace.sfmoma.org/2011/07/third-hand-plays-out-of-touch-by-christine-wilks/",
-      "linkText": "Third Hand Plays: “Out of Touch” by Christine Wilks",
-      "accolades": [
-        {"name": "Third Hand Plays series published at Open Space, SFMOMA, Aug 2011",
-        "url": "http://openspace.sfmoma.org/2011/07/third-hand-plays-out-of-touch-by-christine-wilks/"},
-        {"name": "Mad Hatters' Review Issue 13",
-        "url": ""}
-      ]
+      "linkText": "Third Hand Plays: “Out of Touch” by Christine Wilks"
     },
     {
       "id": "upsidedown-chandelier",
@@ -144,13 +96,7 @@
       "publisher": "María Mencía",
       "moreinfo": "\"This multiplatform digital work references an event connected with the history of Košice and its tobacco factory from 1851 which employed mostly women workers. Some decades later, when St. Elizabeth's Cathedral was being renovated, the women workers donated a candle chandelier. The chandelier itself was repurposed twice – from the original candles, to gas lighting and with the advent of electricity, was turned upside down. In the installation, images of the chandelier from the cathedral are randomly generated and projected onto a screen in a flux of forms. Simultaneously the words connected with this story appear projected on the walls of the room, and phonetic sounds from Slovakian, Hungarian and German are generatively mixed in to create the soundscape of languages that were once spoken in the very same place by women workers\" (María Mencía 2013).",
       "moreUrl": "http://www.mariamencia.com/pages/upsidedown.html",
-      "linkText": "Upside Down Chandelier: installation at DIG Gallery, Slovakia, Nov 2013",
-      "accolades": [
-        {"name": "Upside Down Chandelier: installation at DIG Gallery, Slovakia, Nov 2013",
-        "url": "http://www.mariamencia.com/pages/upsidedown.html"},
-        {"name": "Electronic Literature Organization (ELO) 2014 Media Arts Show",
-        "url": "http://conference.eliterature.org/2014/media"}
-      ]
+      "linkText": "Upside Down Chandelier: installation at DIG Gallery, Slovakia, Nov 2013"
     },
     {
       "id": "crissxross-trail-remixworx",
@@ -165,13 +111,7 @@
       "publisher": "",
       "moreinfo": "I gave live presentations of my crissxross trail of remixes at the ELMCIP conference on Remediating the Social (2012) and the HERA Joint Research Programme Final Conference and Humanities Festival (2013). The R3M1XW0RX site hosts more than 500 remixes of digital art, animation, sound, music, poetry and writing. See more here:",
       "moreUrl": "http://remixworx.com",
-      "linkText": "R3M1XW0RX",
-      "accolades": [
-        {"name": "ELMCIP conference on Remediating the Social (2012)",
-        "url": ""},
-        {"name": "HERA Joint Research Programme Final Conference and Humanities Festival (2013)",
-        "url": ""}
-      ]
+      "linkText": "R3M1XW0RX"
     },
     {
       "id": "remixworx",
@@ -186,13 +126,7 @@
       "kudos": "",
       "moreinfo": "R3M1XW0RX is a tribute to the creativity, generosity and unique spirit of Randy Adams, aka runran, (1951-2014).",
       "moreUrl": "http://remixworx.com",
-      "linkText": "remixworx blog (where the remixing happens)",
-      "accolades": [
-        {"name": "E-Poetry (Barcelona)",
-        "url": ""},
-        {"name": "Devil's Rope at IFO7",
-        "url": ""}
-      ]
+      "linkText": "remixworx blog (where the remixing happens)"
     },
     {
       "id": "revolution-of-words",
@@ -206,33 +140,7 @@
       "publisher": "remixworx",
       "moreinfo": "Try our useful online tool to find new meaning in your life. Give it a spin and see which dictum, watchword, slogan, epigram, mantra, motto, pitch, patter or spiel fortune favours for you!",
       "moreUrl": "http://remixworx.com/?p=2345",
-      "linkText": "A Revolution of Words at R3M1XW0RX",
-      "accolades": [
-        {"name": "A Revolution of Words at R3M1XW0RX",
-        "url": "http://remixworx.com/?p=2345"}
-      ]
-    },
-    {
-      "id": "io-out-of-touch",
-      "workUrl": "http://crissxross.net/oot/indexoot.html",
-      "title": "I/O Out of Touch",
-      "description": "Variations for live digital performance... (In our world of perpetual connectivity, touching interfaces that keep us out of reach, we form attachments whilst remaining detached, by turns kindling and dampening emotions.)",
-      "imageUrl": "images/OOT_thumbnail.jpg",
-      "pubdate": "2012",
-      "tech": "Flash",
-      "collab": "",
-      "publisher": "",
-      "moreinfo": "Out of Touch was originally commissioned by the San Francisco Museum of Modern Art for the Third Hand Plays series published at SFMOMA's Open Space in August 2011 (see above)... I worked on the ideas for live performance [RE-WRITE THIS]. I performed it live at:",
-      "moreUrl": "http://openspace.sfmoma.org/2011/07/third-hand-plays-out-of-touch-by-christine-wilks/",
-      "linkText": "Third Hand Plays: “Out of Touch” by Christine Wilks",
-      "accolades": [
-        {"name": "E-Poetry 2013",
-        "url": ""},
-        {"name": "elmcip in Bristol event - name???",
-        "url": ""},
-        {"name": "Event in Leeds - name???",
-        "url": ""}
-      ]
+      "linkText": "A Revolution of Words at R3M1XW0RX"
     }
   ],
   "listWorks": [

@@ -1,14 +1,23 @@
 <div class="card-container">
 
-<md-card *ngFor="let featuredWork of featuredWorks | async">
+  <md-card *ngFor="let featuredWork of featuredWorks | async">
 
     <md-card-title>{{featuredWork.title}}</md-card-title>
     <img md-card-image [alt]="featuredWork.id" src="img/{{featuredWork.id}}.png">
     <md-card-content>
       <p>{{featuredWork.description}}</p>
       <p>{{featuredWork.collab}}</p>
-      <p *ngIf="!panel.collapsed">{{featuredWork.moreinfo}}</p>
-      <p *ngIf="!panel.collapsed"><a href="{{featuredWork.moreUrl}}">{{featuredWork.linkText}}</a></p>
+      <!-- MORE INFO -->
+      <div *ngIf="!panel.isCollapsed">
+        <p>{{featuredWork.moreinfo}}</p>
+        <!--<p><a href="{{featuredWork.moreUrl}}">{{featuredWork.linkText}}</a></p>-->
+        <md-list>
+          <md-list-item *ngFor="let accolade of featuredWork.accolades">
+            <a href="{{accolade.url}}">
+            {{accolade.name}}</a>
+          </md-list-item>
+        </md-list>
+      </div>
     </md-card-content>
 
     <md-card-footer>
@@ -18,8 +27,8 @@
 
     <md-card-actions align="end">
       <button md-raised-button collapseToggle #panel="collapsible">
-        <span *ngIf="panel.collapsed">more info</span>
-        <span *ngIf="!panel.collapsed">less info</span>
+        <span *ngIf="panel.isCollapsed">more info</span>
+        <span *ngIf="!panel.isCollapsed">less info</span>
       </button>
 
       <a md-raised-button md-anchor href={{featuredWork.workUrl}} target="_blank">PLAY</a>
