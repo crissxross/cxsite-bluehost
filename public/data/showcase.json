@@ -14,7 +14,7 @@
       "moreUrl": "http://www.cddc.vt.edu/journals/newriver/14Spring/index.html",
       "linkText": "The New River Journal, Spring 2014",
       "accolades": [
-        {"name": "E-Poetry 'Words Unstable On The Table' 2013",
+        {"name": "'Words Unstable On The Table' exhibition, E-Poetry 2013",
         "url": "https://www.watermans.org.uk/new-media-arts-archive/words-unstable-on-the-table-2013/"},
         {"name": "Modern Language Association (MLA) 2014 Convention's Pathfinders Exhibit",
         "url": "http://dtc-wsuv.org/wp/pathfinders/exhibit/"},
@@ -34,20 +34,48 @@
       "tech": "Flash",
       "collab": "",
       "publisher": "Published in the ELMCIP Anthology of European Electronic Literature, Nov 2012; Studies in the Maternal, Volume 3, Issue 2, 2011; Hyperrhiz.08, Issue 8, Spring 2011.",
-      "moreinfo": "Winner of the New Media Writing Prize 2010 and winner of the MaMSIE Digital Media Competition 2010/11. Underbelly has featured in a number of international exhibitions and has been published in Hyperrhiz.08, Issue 8, Spring 2011; Studies in the Maternal, Volume 3, Issue 2, 2011; and also:",
+      "moreinfo": "'Underbelly' has won awards and featured in a number of international exhibitions, conferences and publications:",
       "moreUrl": "http://anthology.elmcip.net/index.html",
       "linkText": "The ELMCIP Anthology of European Electronic Literature",
       "accolades": [
         {"name": "The ELMCIP Anthology of European Electronic Literature (Nov 2012)",
         "url": "http://anthology.elmcip.net/index.html"},
         {"name": "Winner of the New Media Writing Prize 2010",
-        "url": ""},
+        "url": "http://newmediawritingprize.co.uk/?page_id=350"},
         {"name": "Winner of the MaMSIE Digital Media Competition 2010/11",
-        "url": ""},
+        "url": "http://www.mamsie.bbk.ac.uk/articles/10.16995/sim.148/"},
         {"name": "Hyperrhiz.08, Issue 8, Spring 2011",
-        "url": ""},
-        {"name": "Studies in the Maternal, Volume 3, Issue 2, 2011",
-        "url": ""}
+        "url": "http://hyperrhiz.io/hyperrhiz08/"},
+        {"name": "Studies in the Maternal, Special Issue: Motherhood, Servitude and the Delegation of Care, Volume 3, Issue 2, 2011",
+        "url": "http://www.mamsie.bbk.ac.uk/articles/10.16995/sim.173/"},
+        {"name": "Electronic Literature Organization 2010: Archive & Innovate - Arts Program",
+        "url": "https://elmcip.net/event/electronic-literature-organization-2010-archive-innovate"},
+        {"name": "The Future of Reading? An Exhibition of Digital Literature (in Gallery 3: Engaging the Senses), 2014",
+        "url": "https://readingdigitalfiction.com/the-future-of-reading-online-exhibition/"},
+        {"name": "Transliteracy Conference 2010",
+        "url": "http://nlabnetworks.typepad.com/transliteracy/programme.html"},
+        {"name": "Writing Bodies/ Reading Bodies - PG CWWN conference 2009 (featured author)",
+        "url": "https://pgcwwn.org/events/writing-bodies-reading-bodies/"},
+        {"name": "The Shoebox Experiment (live performance)",
+        "url": "http://crissxross.net/wilx/2011/04/27/underbelly-at-the-shoebox-experiment/"},
+        {"name": "Neo-Victorian Art and Aestheticism symposium, 2011",
+        "url": "http://www2.hull.ac.uk/fass/english/events/conferences/cfp-neo_.aspx"},
+        {"name": "Inspace ...no one can hear you scream - Language in Digital Performance, ICIDS 2010",
+        "url": "http://www.macs.hw.ac.uk/icids2010/Language_in_Digital_Performance.html"},
+        {"name": "'Seven Wanders', Ilkley Literature Fringe Festival, 2012",
+        "url": "http://www.ilkleyliteraturefestival.org.uk/whats-on/fringe-festival"},
+        {"name": "PW10 Performance Writing 2010, exhibition at Arnolfini",
+        "url": "http://crissxross.net/wilx/2010/05/05/underbelly-in-pw10-at-arnolfini/"},
+        {"name": "17th International Festival of Computer Arts, Maribor, Slovenia, 2011",
+        "url": "http://www.mfru.org/"},
+        {"name": "‘Women Shift Digital’ Conference, 2013 (in Digital Textualities Showcase curated by Maria Mencía)",
+        "url": "http://www.bodydataspace.net/projects/women-shift-digital-conference/"},
+        {"name": "'La paraula pixelada. La literatura a l’era digital' (Pixilated Words. Literature in the digital age) exhibition at Arts Santa Mònica, Barcelona, 2016",
+        "url": "http://artssantamonica.gencat.cat/en/detall/Paraules-pixelades"},
+        {"name": "Digital Fictions: Can stories help young women think differently about themselves?, 2013",
+        "url": "https://digitalfictions.wordpress.com/"},
+        {"name": "'Electronic Literature' Exhibit at the Modern Languages Association 2012 Convention",
+        "url": "http://dtc-wsuv.org/mla2012/works-computer.html"}
       ]
     },
     {
@@ -66,8 +94,24 @@
       "accolades": [
         {"name": "The Electronic Literature Collection, Volume Two",
         "url": "http://collection.eliterature.org/2/works/wilks_fittingthepattern.html"},
-        {"name": "",
-        "url": ""}
+        {"name": "'La paraula pixelada. La literatura a l’era digital' (Pixilated Words. Literature in the digital age) exhibition at Arts Santa Mònica, Barcelona, 2016",
+        "url": "http://artssantamonica.gencat.cat/en/detall/Paraules-pixelades"},
+        {"name": "Studies in the Maternal, Volume 1 - Issue 2 - 2009",
+        "url": "http://www.mamsie.bbk.ac.uk/articles/abstract/10.16995/sim.149/"},
+        {"name": "Electronic Literature in Europe 2008 (conference)",
+        "url": "https://elmcip.net/event/electronic-literature-europe-2008"},
+        {"name": "Live performance/reading at The Museum of Printed Textiles, Mulhouse, France (year??)",
+        "url": "http://www.musee-impression.com/gb/musee/default.html"},
+        {"name": "'The Writer's Group Exposed!!!', Ilkley Literature Fringe Festival, 2010",
+        "url": "http://www.ilkleyliteraturefestival.org.uk/whats-on/fringe-festival"},
+        {"name": "'The Line of Influence' at Binarykatwalk",
+        "url": "http://www.binarykatwalk.net/index.html#"},
+        {"name": "Language and the Interface: An Exhibition, Coimbra, 2015 ",
+        "url": "http://languageandtheinterface.uc.pt/?cat=10"},
+        {"name": "Digital Fictions: Can stories help young women think differently about themselves?, 2013",
+        "url": "https://digitalfictions.wordpress.com/"},
+        {"name": "Creative Writing and New Media MA showcase at the IOCT Salon, 2008",
+        "url": "http://crissxross.net/wilx/2008/07/13/fitting-the-pattern/"}
       ]
     },
     {
@@ -86,8 +130,8 @@
       "accolades": [
         {"name": "The Electronic Literature Collection, Volume Two",
         "url": "http://collection.eliterature.org/2/works/wilks_tailspin.html"},
-        {"name": "",
-        "url": ""}
+        {"name": "Reading Interfaces: Inquiries at the Intersection of Literature and Technology, 2015",
+        "url": "https://readinginterfaces.wordpress.com/"}
       ]
     },
     {
@@ -106,10 +150,14 @@
       "accolades": [
         {"name": "The New River Journal, Spring 2012",
         "url": "http://www.cddc.vt.edu/journals/newriver/12Spring/index.html"},
-        {"name": "The New Works Festival, TheatreWorks, Silicon Valley",
-        "url": ""},
-        {"name": "'Avenues of Access' exhibit of electronic literature a the Modern Language Association 2013 Convention",
-        "url": ""}
+        {"name": "The New Works Festival's Digital Humanities exhibition, TheatreWorks, Silicon Valley, 2013",
+        "url": "http://www.theatreworks.org/shows/nwf"},
+        {"name": "'Avenues of Access' exhibit of electronic literature at the Modern Language Association 2013 Convention",
+        "url": "http://dtc-wsuv.org/elit/mla2013/works.html"},
+        {"name": "Electronic Literature Organization 2012 Media Art Show: Electrifying Literature: Affordances and Constraints",
+        "url": "https://elmcip.net/event/electronic-literature-organization-2012-media-art-show-electrifying-literature-affordances-and"},
+        {"name": "Museu do essencial e do além disso / Museum of the Essential and Beyond That, Sala De Jogos/Games Room, 2012",
+        "url": "http://arteonline.arq.br/museu/reformas/artgames.htm"}
       ]
     },
     {
@@ -122,14 +170,14 @@
       "tech": "Flash",
       "collab": "",
       "publisher": "SFMOMA's Open Space; Mad Hatters' Review",
-      "moreinfo": "Out of Touch was commissioned by the San Francisco Museum of Modern Art for the Third Hand Plays series published at SFMOMA's Open Space in August 2011. It was also published in the Mad Hatters' Review Issue 13. I went on to develop further variations of the work: I/O Out Of Touch for live performance (see below). Read SFMOMA curator, Brian Stefans' SFMOMA statement:",
+      "moreinfo": "'Out of Touch' was commissioned by the San Francisco Museum of Modern Art for the Third Hand Plays series published at SFMOMA's Open Space in August 2011. I went on to develop further variations of the work: I/O Out Of Touch for live performance (see below). 'Out of Touch' has been published and/or exhibited at:",
       "moreUrl": "http://openspace.sfmoma.org/2011/07/third-hand-plays-out-of-touch-by-christine-wilks/",
       "linkText": "Third Hand Plays: “Out of Touch” by Christine Wilks",
       "accolades": [
         {"name": "Third Hand Plays series published at Open Space, SFMOMA, Aug 2011",
         "url": "http://openspace.sfmoma.org/2011/07/third-hand-plays-out-of-touch-by-christine-wilks/"},
         {"name": "Mad Hatters' Review Issue 13",
-        "url": ""}
+        "url": "http://www.madhattersreview.com/issue13/multimedia.shtml"}
       ]
     },
     {
@@ -149,7 +197,9 @@
         {"name": "Upside Down Chandelier: installation at DIG Gallery, Slovakia, Nov 2013",
         "url": "http://www.mariamencia.com/pages/upsidedown.html"},
         {"name": "Electronic Literature Organization (ELO) 2014 Media Arts Show",
-        "url": "http://conference.eliterature.org/2014/media"}
+        "url": "http://conference.eliterature.org/2014/media"},
+        {"name": "‘Women Shift Digital’ Conference, 2013 (in Digital Textualities Showcase curated by Maria Mencía)",
+        "url": "http://www.bodydataspace.net/projects/women-shift-digital-conference/"}
       ]
     },
     {
@@ -167,10 +217,10 @@
       "moreUrl": "http://remixworx.com",
       "linkText": "R3M1XW0RX",
       "accolades": [
-        {"name": "ELMCIP conference on Remediating the Social (2012)",
-        "url": ""},
-        {"name": "HERA Joint Research Programme Final Conference and Humanities Festival (2013)",
-        "url": ""}
+        {"name": "ELMCIP conference on Remediating the Social, 2012",
+        "url": "https://elmcip.net/event/elmcip-conference-remediating-social"},
+        {"name": "'The Time and The Place', HERA Joint Research Programme Final Conference and Humanities Festival, 2013",
+        "url": "http://heranet.info/final-conference-and-humanities-festival"}
       ]
     },
     {
@@ -188,10 +238,14 @@
       "moreUrl": "http://remixworx.com",
       "linkText": "remixworx blog (where the remixing happens)",
       "accolades": [
-        {"name": "E-Poetry (Barcelona)",
-        "url": ""},
-        {"name": "Devil's Rope at IFO7",
-        "url": ""}
+        {"name": "Artists' presentation at ELMCIP Conference on Remediating the Social, 2012",
+        "url": "https://elmcip.net/event/elmcip-conference-remediating-social"},
+        {"name": "E-Poetry 2009",
+        "url": "https://elmcip.net/event/e-poetry-2009"},
+        {"name": "'Devil's Rope' (a remixworx special edition) at Interactive Futures 2007",
+        "url": "http://if2007.ecuad.ca/?page_id=6"},
+        {"name": "DRHA 2008: Digital Resources in the Humanities and Arts 2008: New Communities of Knowledge and Practice",
+        "url": "http://projects.oucs.ox.ac.uk/DRHA/2008/alldrha08.html"}
       ]
     },
     {
@@ -216,22 +270,22 @@
       "id": "io-out-of-touch",
       "workUrl": "http://crissxross.net/oot/indexoot.html",
       "title": "I/O Out of Touch",
-      "description": "Variations for live digital performance... (In our world of perpetual connectivity, touching interfaces that keep us out of reach, we form attachments whilst remaining detached, by turns kindling and dampening emotions.)",
+      "description": "Variations for live digital performance... Touching interfaces that keep us out of reach yet perpetually connected and forever desiring... After creating the original 'Out of Touch' piece for San Francisco Museum of Modern Art's Open Space, I wanted to develop the ideas further as an ongoing project of playable media for live performance.",
       "imageUrl": "images/OOT_thumbnail.jpg",
       "pubdate": "2012",
       "tech": "Flash",
       "collab": "",
       "publisher": "",
-      "moreinfo": "Out of Touch was originally commissioned by the San Francisco Museum of Modern Art for the Third Hand Plays series published at SFMOMA's Open Space in August 2011 (see above)... I worked on the ideas for live performance [RE-WRITE THIS]. I performed it live at:",
+      "moreinfo": "Out of Touch was originally commissioned by the San Francisco Museum of Modern Art for the Third Hand Plays series published at SFMOMA's Open Space in August 2011 (see above)... I worked on the ideas for live performance [RE-WRITE THIS]. I have performed I/O OOT live at:",
       "moreUrl": "http://openspace.sfmoma.org/2011/07/third-hand-plays-out-of-touch-by-christine-wilks/",
       "linkText": "Third Hand Plays: “Out of Touch” by Christine Wilks",
       "accolades": [
         {"name": "E-Poetry 2013",
-        "url": ""},
-        {"name": "elmcip in Bristol event - name???",
-        "url": ""},
-        {"name": "Event in Leeds - name???",
-        "url": ""}
+        "url": "https://elmcip.net/event/e-poetry-2013"},
+        {"name": "ELMCIP Seminar on Digital Textuality with/in Performance, 2012",
+        "url": "https://elmcip.net/event/elmcip-seminar-digital-textuality-within-performance"},
+        {"name": "New Work Yorkshire: Vanity Fair, 2012",
+        "url": "https://www.facebook.com/newworkyorkshire"}
       ]
     }
   ],

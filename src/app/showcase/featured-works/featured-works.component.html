@@ -10,13 +10,13 @@
       <!-- MORE INFO -->
       <div *ngIf="!panel.isCollapsed">
         <p>{{featuredWork.moreinfo}}</p>
-        <!--<p><a href="{{featuredWork.moreUrl}}">{{featuredWork.linkText}}</a></p>-->
-        <md-list>
-          <md-list-item *ngFor="let accolade of featuredWork.accolades">
+
+        <ul>
+          <li *ngFor="let accolade of featuredWork.accolades">
             <a href="{{accolade.url}}">
             {{accolade.name}}</a>
-          </md-list-item>
-        </md-list>
+          </li>
+        </ul>
       </div>
     </md-card-content>
 

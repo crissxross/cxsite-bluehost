@@ -6,11 +6,11 @@ import {
   expect, it, xit,
   async, inject
 } from '@angular/core/testing';
-import { CollapseToggle } from './collapse-toggle.directive';
+import { CollapseToggleDirective } from './collapse-toggle.directive';
 
 describe('CollapseToggle Directive', () => {
   it('should create an instance', () => {
-    let directive = new CollapseToggle();
+    let directive = new CollapseToggleDirective();
     expect(directive).toBeTruthy();
   });
 });
