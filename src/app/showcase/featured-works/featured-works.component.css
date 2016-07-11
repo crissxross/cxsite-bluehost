@@ -17,11 +17,16 @@ md-card-footer {
   line-height: 0.6em;
 }
 
-md-card-content a {
-  color: #B71C1C;
-  text-decoration: none;
+ul {
+  padding-left: 20px;
+  font-size: 0.95em;
+}
+li {
+  margin-top: 6px;
 }
 
-md-card-content a:hover {
-  text-decoration: underline;
+.awards {
+  font-size: 1em;
+  list-style-type: none;
+  padding-left: 0;
 }

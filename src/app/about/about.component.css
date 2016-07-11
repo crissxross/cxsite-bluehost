@@ -10,12 +10,3 @@ md-card {
   justify-content: center;
   align-items: flex-start;
 }
-
-a {
-  color: #B71C1C;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}

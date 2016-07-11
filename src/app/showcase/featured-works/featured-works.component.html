@@ -10,7 +10,13 @@
       <!-- MORE INFO -->
       <div *ngIf="!panel.isCollapsed">
         <p>{{featuredWork.moreinfo}}</p>
-
+        <ul class="awards">
+          <li *ngFor="let award of featuredWork.awards">
+            <a href="{{award.url}}">
+            {{award.name}}</a>
+          </li>
+        </ul>
+        <p><strong>{{featuredWork.title}}</strong> publications/exhibitions/performances:</p>
         <ul>
           <li *ngFor="let accolade of featuredWork.accolades">
             <a href="{{accolade.url}}">

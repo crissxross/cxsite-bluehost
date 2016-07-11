@@ -16,3 +16,12 @@ body {
 }
 /*Upholstery pattern by Nate Eagle - http://lea.verou.me/css3patterns/#upholstery*/
 /* NOTE: I halved all px values to make pattern 50% smaller */
+
+a {
+  color: #A30018;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
