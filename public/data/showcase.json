@@ -73,7 +73,9 @@
         {"name": "Digital Fictions: Can stories help young women think differently about themselves?, 2013",
         "url": "https://digitalfictions.wordpress.com/"},
         {"name": "'Electronic Literature' Exhibit at the Modern Languages Association 2012 Convention, Seattle, USA",
-        "url": "http://dtc-wsuv.org/mla2012/works-computer.html"}
+        "url": "http://dtc-wsuv.org/mla2012/works-computer.html"},
+        {"name": "Mum’s the Word: The maternal in contemporary literature, Leicester, UK, 2009",
+        "url": "http://mamsie.org/2009/01/mums-the-word-the-maternal-in-contemporary-literaturede-montfort-university-leicester/"}
       ]
     },
     {
@@ -138,7 +140,7 @@
       "tech": "Flash",
       "collab": "",
       "publisher": "The New River Journal, Spring 2012",
-      "moreinfo": "In memory of my father, Bernard Wilks (1925 - 2012). The title, 'Rememori', is a conflation of the words: remember, memory and memento mori. I made the work while my father was still alive but in the latter stages of Alzheimer's disease.",
+      "moreinfo": "In memory of my father, Bernard Wilks (1925-2012). The title, 'Rememori', is a conflation of the words: remember, memory and memento mori. I made the work while my father was still living but in the latter stages of Alzheimer's disease.",
       "accolades": [
         {"name": "The New River Journal, Spring 2012",
         "url": "http://www.cddc.vt.edu/journals/newriver/12Spring/index.html"},
@@ -182,7 +184,7 @@
       "tech": "Flash",
       "collab": "",
       "publisher": "SFMOMA's Open Space; Mad Hatters' Review",
-      "moreinfo": "'Out of Touch' was commissioned by the San Francisco Museum of Modern Art for the Third Hand Plays series published at SFMOMA's Open Space in August 2011. I went on to develop further variations of the work: I/O Out Of Touch for live performance (see below).",
+      "moreinfo": "'Out of Touch' was commissioned by the San Francisco Museum of Modern Art for the Third Hand Plays series, curated by Brian Kim Stefans, published at SFMOMA's Open Space in Summer 2011.",
       "accolades": [
         {"name": "Third Hand Plays series published at Open Space, SFMOMA, 2011",
         "url": "http://openspace.sfmoma.org/2011/07/third-hand-plays-out-of-touch-by-christine-wilks/"},
@@ -194,13 +196,13 @@
       "id": "io-out-of-touch",
       "workUrl": "http://crissxross.net/oot/indexoot.html",
       "title": "I/O Out of Touch",
-      "description": "Variations of 'Out of Touch' for live digital performance. Touching interfaces that keep us out of reach yet perpetually connected and forever desiring...",
+      "description": "Variations of 'Out of Touch', a suite of digital works for live performance. Touching interfaces that keep us out of reach yet perpetually connected and forever desiring...",
       "imageUrl": "images/OOT_thumbnail.jpg",
       "pubdate": "2012",
       "tech": "Flash",
       "collab": "",
       "publisher": "",
-      "moreinfo": "After creating the original 'Out of Touch' piece for San Francisco Museum of Modern Art's Open Space, I wanted to develop the ideas further as an ongoing project of playable media for live performance.",
+      "moreinfo": "After creating the original 'Out of Touch' piece for San Francisco Museum of Modern Art's Open Space, I developed the ideas further in 'Out of Hand' and 'Out of Sight', creating a collection of playable media for live digital performance.",
       "accolades": [
         {"name": "E-Poetry 2013, London, UK",
         "url": "https://elmcip.net/event/e-poetry-2013"},
@@ -215,13 +217,13 @@
       "workUrl": "http://crissxross.net/remixworx/indexcxtrail.html",
       "title": "A crissxross trail < R3M1XW0RX",
       "subtitle": "one remix player's scenic route through remixworx",
-      "description": "Conceived as a poetic interactive infographic with plenty of multimedia animated content, this 'scenic route' through remixworx presents a sample trail of 33 remixes out of more than 100 that I've created since joining the collaborative online creative project, R3M1XW0RX, in Jan 2007.",
+      "description": "Conceived as a poetic interactive infographic with plenty of multimedia animated content, this 'scenic route' through remixworx presents a sample trail of 33 remixes out of the 100 (approx.) that I've created since joining the collaborative creative online project in Jan 2007.",
       "imageUrl": "images/janus.jpg",
       "pubdate": "2012",
       "tech": "HTML, Flash & video",
       "collab": "",
       "publisher": "",
-      "moreinfo": "The R3M1XW0RX site hosts well over 500 remixes of digital art, animation, sound, music, poetry and writing.",
+      "moreinfo": "The R3M1XW0RX site hosts more than 500 remixes of digital art, animation, sound, music, poetry and writing.",
       "accolades": [
         {"name": "ELMCIP conference on Remediating the Social, Edinburgh, UK, 2012",
         "url": "https://elmcip.net/event/elmcip-conference-remediating-social"},
