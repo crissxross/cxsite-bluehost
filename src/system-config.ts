@@ -7,11 +7,15 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'web-animations-js': 'vendor/web-animations-js/web-animations.min.js',
   '@angular2-material': 'vendor/@angular2-material'
 };
 
 /** User packages configuration. */
 const packages: any = {
+  'web-animations-js': {
+    format: 'cjs'
+  },
   '@angular2-material/core': {
     format: 'cjs',
     defaultExtension: 'js',
