@@ -10,3 +10,7 @@ md-card {
   justify-content: center;
   align-items: flex-start;
 }
+
+md-card-content {
+  line-height: 1.5em;
+}
