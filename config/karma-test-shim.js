@@ -53,4 +53,4 @@ System.import('system-config.js').then(function() {
     allSpecFiles.map(function (moduleName) {
       return System.import(moduleName);
     }));
-}).then(__karma__.start, __karma__.error);
+  }).then(__karma__.start, __karma__.error);
