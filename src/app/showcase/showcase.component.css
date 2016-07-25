@@ -25,3 +25,11 @@ md-card-content a {
 md-card-content a:hover {
   text-decoration: underline;
 }
+
+ul {
+  padding-left: 20px;
+  font-size: 0.95em;
+}
+li {
+  margin-top: 6px;
+}

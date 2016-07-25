@@ -2,13 +2,6 @@
   background-color: hsla(0, 100%, 5%, 0.5);
   color: #EEE;
 }
-/* Do I need .card-container here? */
-.card-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: flex-start;
-}
 
 .fill-remaining-space {
   /* This fills the remaining space, by using flexbox.

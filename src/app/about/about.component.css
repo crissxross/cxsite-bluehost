@@ -14,3 +14,12 @@ md-card {
 md-card-content {
   line-height: 1.5em;
 }
+
+a {
+  color: #A30018;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

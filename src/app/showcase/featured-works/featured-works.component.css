@@ -1,30 +1,3 @@
-md-card {
-  width: 400px;
-  box-sizing: border-box;
-  margin: 16px;
-}
-
-.card-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-md-card-footer {
-  color: #9A9A9A;
-  font-size: 0.75em;
-  line-height: 0.6em;
-}
-
-ul {
-  padding-left: 20px;
-  font-size: 0.95em;
-}
-li {
-  margin-top: 6px;
-}
-
 .awards {
   font-size: 1em;
   list-style-type: none;

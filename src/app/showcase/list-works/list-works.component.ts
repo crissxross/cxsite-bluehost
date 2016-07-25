@@ -9,7 +9,7 @@ import { CollapseToggleDirective } from '../../shared/collapse-toggle.directive'
   moduleId: module.id,
   selector: 'app-list-works',
   templateUrl: 'list-works.component.html',
-  styleUrls: ['list-works.component.css'],
+  styleUrls: ['../showcase.component.css', 'list-works.component.css'],
   directives: [MD_BUTTON_DIRECTIVES, MD_CARD_DIRECTIVES, MD_LIST_DIRECTIVES, CollapseToggleDirective],
   animations: [
     trigger('panelState', [
