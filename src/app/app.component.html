@@ -1,11 +1,25 @@
 <md-sidenav-layout fullscreen>
   <md-sidenav #sidenav>
-    <h2 class="sidenav">{{title}}</h2>
+    <h2 class="side-title">{{title}}</h2>
+    <md-divider></md-divider>
     <md-nav-list>
-      <a md-list-item [routerLink]="['/showcase']">Showcase</a>
-      <a md-list-item [routerLink]="['/about']">About me</a>
-      <a md-list-item href="http://crissxross.net/wilx/">Blog</a>
+      <md-list-item>
+        <a md-line [routerLink]="['/showcase']">Showcase
+        <span md-line class="secondary">art, games & interactive stories</span>
+        </a>
+      </md-list-item>
+      <md-list-item>
+        <a md-line [routerLink]="['/about']">About
+        <span md-line class="secondary">Christine Wilks</span>
+        </a>
+      </md-list-item>
+      <md-list-item>
+        <a md-line href="http://crissxross.net/wilx/">Blog
+        <span md-line class="secondary">includes more digital art</span>
+        </a>
+      </md-list-item>
     </md-nav-list>
+    <md-divider></md-divider>
   </md-sidenav>
 
   <md-toolbar class="cx-toolbar">
@@ -15,8 +29,7 @@
     <h1>{{title}}</h1>
     <!-- This fills the remaining space of the current row -->
     <span class="fill-remaining-space"></span>
-    <span><h3>creative works by Christine Wilks</h3></span>
-    <!--<span>about | blog</span>-->
+    <div class="cx-strapline"><a [routerLink]="['/showcase']">creative works</a> <span class="cx-small">by</span> <a [routerLink]="['/about']">Christine Wilks</a></div>
   </md-toolbar>
 
   <router-outlet></router-outlet>

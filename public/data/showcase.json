@@ -206,7 +206,7 @@
       "id": "rememori",
       "workUrl": "http://crissxross.net/elit/rememori.html",
       "title": "Rememori",
-      "description": "A degenerative memory game and playable poem that grapples with the effects of dementia on an intimate circle of characters.",
+      "description": "A poignant memory game and playable poem. Through multiple levels, the player grapples with the effects of degenerative dementia on an intimate circle of characters.",
       "imageUrl": "images/Rememori_thumb.png",
       "pubdate": "2011",
       "tech": "Flash",
@@ -272,7 +272,7 @@
       "tech": "Flash",
       "collab": "",
       "publisher": "SFMOMA's Open Space; Mad Hatters' Review",
-      "moreinfo": "'Out of Touch' was commissioned by the San Francisco Museum of Modern Art for the Third Hand Plays series, curated by Brian Kim Stefans, published at SFMOMA's Open Space in Summer 2011.",
+      "moreinfo": "'Out of Touch' was commissioned by the San Francisco Museum of Modern Art for the Third Hand Plays series, curated by Brian Kim Stefans, published at SFMOMA's Open Space in Summer 2011. The poem randomly generates the text so it's different every time you view it.",
       "accolades": [
         {
           "name": "Third Hand Plays series published at Open Space, SFMOMA, 2011",
@@ -288,13 +288,13 @@
       "id": "io-out-of-touch",
       "workUrl": "http://crissxross.net/oot/indexoot.html",
       "title": "I/O Out of Touch",
-      "description": "Variations of 'Out of Touch' - a suite of digital works for live performance. Touching interfaces that keep us out of reach yet perpetually connected and forever desiring...",
+      "description": "Variations of 'Out of Touch' - a suite of digital works I made for live performance. Touching interfaces that keep us out of reach yet perpetually connected and forever desiring...",
       "imageUrl": "images/OOT_thumbnail.jpg",
       "pubdate": "2012",
       "tech": "Flash",
       "collab": "",
       "publisher": "",
-      "moreinfo": "After creating the original 'Out of Touch' piece for San Francisco Museum of Modern Art's Open Space, I developed the ideas further in 'Out of Hand' and 'Out of Sight', creating a collection of playable media for live digital performance.",
+      "moreinfo": "After making the original 'Out of Touch' piece for San Francisco Museum of Modern Art's Open Space, I developed the ideas further, in 'Out of Hand' and 'Out of Sight', to create a collection of playable media for live digital performance.",
       "accolades": [
         {
           "name": "E-Poetry 2013, London, UK",
@@ -371,9 +371,9 @@
       "imageUrl": "images/RevolScreenThumb150.jpg",
       "pubdate": "2013",
       "tech": "HTML5 & JavaScript",
-      "collab": "Made in collaboration with Randy Adams (aka runran).",
+      "collab": "My final collaboration with Randy Adams (1951-2014).",
       "publisher": "remixworx",
-      "moreinfo": "In memory of Randy Adams (1951-2014). It was our final collaboration. The concept was Randy's. He wrote the text and sourced the images between bouts of chemotherapy. I wrote the code and designed the user experience.",
+      "moreinfo": "In memory of Randy, aka runran. The concept was his and he wrote the text and sourced the images between bouts of chemotherapy. I wrote the code and designed the user experience.",
       "accolades": [
         {
           "name": "A Revolution of Words at R3M1XW0RX",
@@ -391,7 +391,7 @@
       "imageUrl": "",
       "pubdate": "2005",
       "tech": "Flash",
-      "moreinfo": "An animated digital poem with ambient music.",
+      "moreinfo": "An animated digital poem with my own ambient music.",
       "accolades": [
         {
           "name": "'A Celebration', Yorkshire Art Circus, Wakefield, 2006",
@@ -415,7 +415,7 @@
       "imageUrl": "",
       "pubdate": "2005",
       "tech": "Flash",
-      "moreinfo": "For this work, I repurposed a series of disturbing images I made as a young art student, giving both the artist and her muse a voice. I discuss the work in more detail in an interview I gave for 'Female Icons' (see below).",
+      "moreinfo": "A poetic multimedia work in which I repurpose a series of disturbing images I made as a young art student, giving both the artist and her muse a voice. I discuss the work in more detail in an interview I gave for 'Female Icons' (see below).",
       "accolades": [
         {
           "name": "Female Icons: it's not the gaze but the look",
@@ -447,7 +447,7 @@
       "imageUrl": "",
       "pubdate": "2006",
       "tech": "Flash",
-      "moreinfo": "An animated poem with ambient music based on my experience of visiting Gaudi's 'Sagrada Familia' in Barcelona some years before.",
+      "moreinfo": "An animated poem with my own ambient music based on my experience of visiting Gaudi's 'Sagrada Familia' in Barcelona some years before.",
       "accolades": [
         {
           "name": "'A Celebration', Yorkshire Art Circus, Wakefield, 2006",
@@ -463,7 +463,7 @@
       "imageUrl": "",
       "pubdate": "2004",
       "tech": "Flash",
-      "moreinfo": "My first digital poem created in Flash where I begin to explore some possibilities of animating text (with sound).",
+      "moreinfo": "My first digital poem created in Flash where I begin to explore some possibilities of animating text (includes ambient sound).",
       "accolades": [
         {
           "name": "Launch of Yorkshire Art Circus Literary Magazine, Castleford, 2005",
@@ -479,7 +479,7 @@
       "imageUrl": "",
       "pubdate": "2004",
       "tech": "HTML",
-      "moreinfo": "Whimisical and interactive, this was my first creative work for the web. It combines text, image and sound.",
+      "moreinfo": "Interactive and whimisical, this was my first creative work for the web. It combines text, image and sound.",
       "accolades": [
         {
           "name": "Web Poetry Slam at Incubation3: The 3rd trAce International Symposium on Writing and the Internet, Nottingham, UK, 2004",
