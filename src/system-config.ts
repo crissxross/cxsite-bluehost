@@ -1,3 +1,5 @@
+"use strict";
+
 // SystemJS configuration file, see links for more information
 // https://github.com/systemjs/systemjs
 // https://github.com/systemjs/systemjs/blob/master/docs/config-api.md
@@ -7,11 +9,15 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'web-animations-js': 'vendor/web-animations-js/web-animations.min.js',
   '@angular2-material': 'vendor/@angular2-material'
 };
 
 /** User packages configuration. */
 const packages: any = {
+  'web-animations-js': {
+    format: 'cjs'
+  },
   '@angular2-material/core': {
     format: 'cjs',
     defaultExtension: 'js',
@@ -73,6 +79,8 @@ const barrels: string[] = [
   'app/showcase',
   'app/about',
   'app/showcase/showcase-detail',
+  'app/showcase/featured-works',
+  'app/showcase/list-works',
   /** @cli-barrel */
 ];
 

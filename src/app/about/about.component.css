@@ -11,8 +11,12 @@ md-card {
   align-items: flex-start;
 }
 
+md-card-content {
+  line-height: 1.5em;
+}
+
 a {
-  color: #B71C1C;
+  color: #A30018;
   text-decoration: none;
 }
 

@@ -17,14 +17,14 @@ export class DataService {
   getFeaturedWorks() {
     return this.http.get(this.showcaseUrl)
       .map((res: Response) => res.json().featuredWorks)
-      .do(data => console.log('showcase featuredWorks:', data))
+      // .do(data => console.log('showcase featuredWorks:', data))
       .catch(this.handleError);
   }
 
   getListWorks() {
     return this.http.get(this.showcaseUrl)
       .map((res: Response) => res.json().listWorks)
-      .do(data => console.log('showcase listWorks:', data))
+      // .do(data => console.log('showcase listWorks:', data))
       .catch(this.handleError);
   }
 

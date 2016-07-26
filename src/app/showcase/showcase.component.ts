@@ -5,6 +5,8 @@ import { MD_BUTTON_DIRECTIVES } from '@angular2-material/button';
 import {Observable} from 'rxjs/Observable';
 
 import { DataService } from '../shared/data.service';
+import { FeaturedWorksComponent } from './featured-works/featured-works.component';
+import { ListWorksComponent } from './list-works/list-works.component';
 
 @Component({
   moduleId: module.id,
@@ -14,15 +16,18 @@ import { DataService } from '../shared/data.service';
   directives: [
     MD_CARD_DIRECTIVES,
     MD_BUTTON_DIRECTIVES,
-    ROUTER_DIRECTIVES
+    ROUTER_DIRECTIVES,
+    FeaturedWorksComponent,
+    ListWorksComponent
   ]
 })
 export class ShowcaseComponent implements OnInit {
 
   featuredWork$: Observable<any>;
   listWork$: Observable<any>;
-  // work$: Observable<any>;
-  // work: any;
+  // moved the two below to FeaturedWorksComponent
+  // showingMore = false;
+  // selectedWork = null;
 
   constructor(
     private _dataService: DataService,
@@ -33,8 +38,17 @@ export class ShowcaseComponent implements OnInit {
     this.listWork$ = this._dataService.getListWorks();
   }
 
-  // gotoDetail() {
-  //   this._router.navigate(['/detail', this.work.id]);
+  // MOVED THESE FUNCTIONS TO FeaturedWorksComponent
+// might need to use OBSERVABLES for this functionality
+  // showMore(featuredWork) {
+  //   this.selectedWork = featuredWork;
+  //   console.log('selectedWork:', this.selectedWork.id);
+  //   this.showingMore = true;
+  // }
+
+  // showLess() {
+  //   this.showingMore = false;
+  //   this.selectedWork = null;
   // }
 
 }
