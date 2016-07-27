@@ -4,7 +4,7 @@ import { ShowcaseComponent } from './showcase/showcase.component';
 import { AboutComponent } from './about/about.component';
 
 export const routes: RouterConfig = [
-  { path: '', redirectTo: '/showcase', terminal: true },
+  { path: '', redirectTo: '/showcase', pathMatch: 'full' },
   { path: 'showcase', component: ShowcaseComponent },
   { path: 'about', component: AboutComponent }
 ];
