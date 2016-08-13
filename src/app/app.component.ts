@@ -11,7 +11,6 @@ import { AboutComponent } from './about/about.component';
 import { DataService } from './shared/data.service';
 
 @Component({
-  moduleId: module.id,
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.css'],
@@ -25,7 +24,7 @@ import { DataService } from './shared/data.service';
     ShowcaseComponent,
     AboutComponent
   ],
-  providers: [MdIconRegistry, DataService]
+  providers: [DataService]
 })
 export class AppComponent {
   title = 'crissxross';

@@ -5,29 +5,19 @@
   <title>crissxross</title>
   <base href="/">
 
-  {{#unless environment.production}}
-  <script src="/ember-cli-live-reload.js" type="text/javascript"></script>
-  {{/unless}}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- I added icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- I added normalize.min.css & main.css here -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <!-- I added main.css but now using webpack so do I need it? YES -->
   <link rel="stylesheet" href="main.css">
-  <!-- I added this polyfill for web animations API -->
-  <script src="vendor/web-animations-js/web-animations.min.js"></script>
+  <!-- I added this polyfill for web animations API - CHECK THIS !!! -->
+  <!--<script src="vendor/web-animations-js/web-animations.min.js"></script>-->
+
 </head>
 <body>
   <app-root>Loading...</app-root>
-
-    {{#each scripts.polyfills}}
-    <script src="{{.}}"></script>
-    {{/each}}
-    <script>
-      System.import('system-config.js').then(function () {
-        System.import('main');
-      }).catch(console.error.bind(console));
-    </script>
-
 </body>
 </html>

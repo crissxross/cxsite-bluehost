@@ -9,7 +9,6 @@ import { FeaturedWorksComponent } from './featured-works/featured-works.componen
 import { ListWorksComponent } from './list-works/list-works.component';
 
 @Component({
-  moduleId: module.id,
   selector: 'app-showcase',
   templateUrl: 'showcase.component.html',
   styleUrls: ['showcase.component.css'],

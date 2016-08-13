@@ -6,7 +6,6 @@ import {MD_LIST_DIRECTIVES} from '@angular2-material/list';
 import { CollapseToggleDirective } from '../../shared/collapse-toggle.directive';
 
 @Component({
-  moduleId: module.id,
   selector: 'app-featured-works',
   templateUrl: 'featured-works.component.html',
   styleUrls: ['../showcase.component.css', 'featured-works.component.css'],
