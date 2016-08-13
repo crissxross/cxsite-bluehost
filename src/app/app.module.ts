@@ -11,12 +11,16 @@ import { MdSidenavModule } from '@angular2-material/sidenav';
 import { MdToolbarModule } from '@angular2-material/toolbar';
 
 import { AppComponent } from './app.component';
+import { ShowcaseComponent } from './showcase/showcase.component';
+import { AboutComponent } from './about/about.component';
 
 import { routing } from './app.routing';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShowcaseComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
