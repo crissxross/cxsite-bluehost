@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ApplicationRef } from '@angular/core';
-import { CommonModule } from '@angular/common';
+// import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
 import { MdButtonModule } from '@angular2-material/button';
 import { MdCardModule } from '@angular2-material/card';
@@ -13,6 +14,8 @@ import { MdToolbarModule } from '@angular2-material/toolbar';
 import { AppComponent } from './app.component';
 import { ShowcaseComponent } from './showcase/showcase.component';
 import { AboutComponent } from './about/about.component';
+import { CollapseToggleDirective } from './shared/collapse-toggle.directive';
+import { DataService } from './shared/data.service';
 
 import { routing } from './app.routing';
 
@@ -20,12 +23,14 @@ import { routing } from './app.routing';
   declarations: [
     AppComponent,
     ShowcaseComponent,
-    AboutComponent
+    AboutComponent,
+    CollapseToggleDirective
   ],
   imports: [
     BrowserModule,
-    CommonModule,
+    // CommonModule,
     FormsModule,
+    HttpModule,
     MdButtonModule,
     MdCardModule,
     MdIconModule,
@@ -34,7 +39,7 @@ import { routing } from './app.routing';
     MdToolbarModule,
     routing
   ],
-  providers: [],
+  providers: [DataService],
   entryComponents: [AppComponent],
   bootstrap: [AppComponent]
 })

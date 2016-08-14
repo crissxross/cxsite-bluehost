@@ -1,14 +1,9 @@
 import { Component, OnInit, Input, trigger, state, style, animate, transition } from '@angular/core';
 
-import { CollapseToggleDirective } from '../../shared/collapse-toggle.directive';
-
 @Component({
   selector: 'app-featured-works',
   templateUrl: 'featured-works.component.html',
   styleUrls: ['../showcase.component.css', 'featured-works.component.css'],
-  directives: [
-    CollapseToggleDirective
-  ],
   animations: [
     trigger('panelState', [
       state('open', style({opacity: 1, height: '*' })),
