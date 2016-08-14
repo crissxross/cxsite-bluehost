@@ -1,7 +1,4 @@
 import { Component, OnInit, Input, trigger, state, style, animate, transition } from '@angular/core';
-import { MD_CARD_DIRECTIVES } from '@angular2-material/card';
-import { MD_BUTTON_DIRECTIVES } from '@angular2-material/button';
-import {MD_LIST_DIRECTIVES} from '@angular2-material/list';
 
 import { CollapseToggleDirective } from '../../shared/collapse-toggle.directive';
 
@@ -9,7 +6,9 @@ import { CollapseToggleDirective } from '../../shared/collapse-toggle.directive'
   selector: 'app-featured-works',
   templateUrl: 'featured-works.component.html',
   styleUrls: ['../showcase.component.css', 'featured-works.component.css'],
-  directives: [MD_BUTTON_DIRECTIVES, MD_CARD_DIRECTIVES, MD_LIST_DIRECTIVES, CollapseToggleDirective],
+  directives: [
+    CollapseToggleDirective
+  ],
   animations: [
     trigger('panelState', [
       state('open', style({opacity: 1, height: '*' })),
