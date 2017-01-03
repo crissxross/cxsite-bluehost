@@ -2,7 +2,6 @@ md-card {
   width: 400px;
   box-sizing: border-box;
   margin: 16px;
-  background-color: white;
 }
 
 .card-container {
@@ -16,6 +15,7 @@ md-card-footer {
   color: #9A9A9A;
   font-size: 0.75em;
   line-height: 0.6em;
+  padding-left: 16px;
 }
 
 md-card-content a {
