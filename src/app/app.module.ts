@@ -11,6 +11,8 @@ import { MdListModule } from '@angular2-material/list';
 import { MdSidenavModule } from '@angular2-material/sidenav';
 import { MdToolbarModule } from '@angular2-material/toolbar';
 
+// import { ShowcaseModule } from './showcase/showcase.module';
+
 import { AppComponent } from './app.component';
 import { ShowcaseComponent } from './showcase/showcase.component';
 import { AboutComponent } from './about/about.component';
@@ -37,6 +39,7 @@ import { routing } from './app.routing';
     MdListModule,
     MdSidenavModule,
     MdToolbarModule,
+    // ShowcaseModule,
     routing
   ],
   providers: [DataService],
