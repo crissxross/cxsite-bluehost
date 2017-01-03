@@ -10,7 +10,7 @@ import 'rxjs/add/operator/catch';
 @Injectable()
 export class DataService {
 
-  private showcaseUrl = '../data/showcase.json';
+  private showcaseUrl = '../assets/data/showcase.json';
 
   constructor(private http: Http) { }
 

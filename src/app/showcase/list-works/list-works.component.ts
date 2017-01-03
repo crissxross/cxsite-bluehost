@@ -2,8 +2,8 @@ import { Component, OnInit, Input, trigger, state, style, animate, transition } 
 
 @Component({
   selector: 'app-list-works',
-  templateUrl: 'list-works.component.html',
-  styleUrls: ['../showcase.component.css', 'list-works.component.css'],
+  templateUrl: './list-works.component.html',
+  styleUrls: ['../showcase.component.css', './list-works.component.css'],
   animations: [
     trigger('panelState', [
       state('open', style({opacity: 1, height: '*' })),

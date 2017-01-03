@@ -2,8 +2,8 @@ import { Component, OnInit, Input, trigger, state, style, animate, transition } 
 
 @Component({
   selector: 'app-featured-works',
-  templateUrl: 'featured-works.component.html',
-  styleUrls: ['../showcase.component.css', 'featured-works.component.css'],
+  templateUrl: './featured-works.component.html',
+  styleUrls: ['../showcase.component.css', './featured-works.component.css'],
   animations: [
     trigger('panelState', [
       state('open', style({opacity: 1, height: '*' })),

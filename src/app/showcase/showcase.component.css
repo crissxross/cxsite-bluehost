@@ -2,6 +2,7 @@ md-card {
   width: 400px;
   box-sizing: border-box;
   margin: 16px;
+  background-color: white;
 }
 
 .card-container {

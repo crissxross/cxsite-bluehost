@@ -1,3 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~normalize.css/normalize.css';
+
+/* Temporarily importing a prebuilt theme because my custom theme in angular-cli.json (commented out) doesn't seem to work */
+@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
+
 body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
     background:

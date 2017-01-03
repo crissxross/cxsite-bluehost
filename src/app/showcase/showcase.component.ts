@@ -4,17 +4,17 @@ import { Router } from '@angular/router';
 import {Observable} from 'rxjs/Observable';
 
 import { DataService } from '../shared/data.service';
-import { FeaturedWorksComponent } from './featured-works/featured-works.component';
-import { ListWorksComponent } from './list-works/list-works.component';
+// import { FeaturedWorksComponent } from './featured-works/featured-works.component';
+// import { ListWorksComponent } from './list-works/list-works.component';
 
 @Component({
   selector: 'app-showcase',
-  templateUrl: 'showcase.component.html',
-  styleUrls: ['showcase.component.css'],
-  directives: [
-    FeaturedWorksComponent,
-    ListWorksComponent
-  ]
+  templateUrl: './showcase.component.html',
+  styleUrls: ['./showcase.component.css'],
+  // directives: [
+  //   FeaturedWorksComponent,
+  //   ListWorksComponent
+  // ]
 })
 export class ShowcaseComponent implements OnInit {
 

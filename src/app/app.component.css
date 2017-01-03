@@ -1,3 +1,7 @@
+md-sidenav-container {
+  background-color: transparent;
+}
+
 .cx-toolbar {
   background-color: hsla(0, 100%, 5%, 0.5);
   color: #EEE;
@@ -61,6 +65,9 @@ footer a {
   text-decoration: underline;
 }
 
+/*md-sidenav {
+  background-color: white;
+}*/
 /*md-sidenav {
   color: #EEE;
   background:

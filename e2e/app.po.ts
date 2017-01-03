@@ -1,3 +1,5 @@
+import { browser, element, by } from 'protractor';
+
 export class CxsitePage {
   navigateTo() {
     return browser.get('/');

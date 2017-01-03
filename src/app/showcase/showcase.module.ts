@@ -1,16 +1,26 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MaterialModule } from '@angular/material';
 
 import { ShowcaseComponent } from './showcase.component';
+import { FeaturedWorksComponent } from './featured-works/featured-works.component';
+import { ListWorksComponent } from './list-works/list-works.component';
+import { CollapseToggleDirective } from '../shared/collapse-toggle.directive';
 
 import { DataService } from '../shared/data.service';
 
 @NgModule({
-  imports: [ CommonModule ],
-  declarations: [ ShowcaseComponent ],
+  imports: [
+    CommonModule,
+    MaterialModule
+  ],
+  declarations: [
+    ShowcaseComponent,
+    FeaturedWorksComponent,
+    ListWorksComponent,
+    CollapseToggleDirective
+  ],
   exports: [ ShowcaseComponent ],
   providers: [ DataService ]
 })
 export class ShowcaseModule { }
-
-// THIS MODULE IS NOT YET BEING USED

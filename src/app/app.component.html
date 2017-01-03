@@ -1,11 +1,11 @@
-<md-sidenav-layout fullscreen>
+<md-sidenav-container>
   <md-sidenav #sidenav>
     <h2 class="side-title">{{title}}</h2>
     <md-divider></md-divider>
     <md-nav-list>
       <md-list-item>
         <a md-line [routerLink]="['/showcase']">Showcase
-        <span md-line class="secondary">art, games & interactive stories</span>
+        <span md-line class="secondary">art, games &amp; interactive stories</span>
         </a>
       </md-list-item>
       <md-list-item>
@@ -35,10 +35,10 @@
   <router-outlet></router-outlet>
 
   <footer>
-    <small>Interactive Storytelling & digital artworks by Christine Wilks<br>
+    <small>Interactive Storytelling &amp; digital artworks by Christine Wilks<br>
          This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution-NonCommercial-NoDerivs 2.0 UK: England &amp; Wales License</a><br>
          <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/2.0/uk/80x15.png" /></a><br>
          <a href="http://lea.verou.me/css3patterns/#upholstery">CSS3 upholstery pattern</a> by Nate Eagle</small>
   </footer>
 
-</md-sidenav-layout>
+</md-sidenav-container>

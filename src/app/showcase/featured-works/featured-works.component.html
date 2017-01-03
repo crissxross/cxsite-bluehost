@@ -3,12 +3,12 @@
   <md-card *ngFor="let featuredWork of featuredWorks | async">
 
     <md-card-title>{{featuredWork.title}}</md-card-title>
-    <img md-card-image [alt]="featuredWork.id" src="img/{{featuredWork.id}}.png">
+    <img md-card-image [alt]="featuredWork.id" src="assets/img/{{featuredWork.id}}.png">
     <md-card-content>
       <p>{{featuredWork.description}}</p>
       <p>{{featuredWork.collab}}</p>
       <!-- MORE INFO -->
-      <div *ngIf="!panel.isCollapsed" @panelState="open">
+      <div *ngIf="!panel.isCollapsed" [@panelState]="open">
         <p>{{featuredWork.moreinfo}}</p>
         <ul class="awards">
           <li *ngFor="let award of featuredWork.awards">
