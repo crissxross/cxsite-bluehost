@@ -19,7 +19,6 @@
       "mobile": false,
       "styles": [
         "styles.css"
-        // "cxsite-app-theme.scss"
       ],
       "scripts": [],
       "environments": {

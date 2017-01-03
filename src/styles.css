@@ -5,6 +5,13 @@
 /* Temporarily importing a prebuilt theme because my custom theme in angular-cli.json (commented out) doesn't seem to work */
 @import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
 
+/* For a fullscreen sidenav so that md-sidenav-container takes up full space. See: https://material.angular.io/components/component/sidenav */
+html, body, app-root, md-sidenav-container, main {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
 body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
     background:
@@ -21,5 +28,5 @@ body {
     background-color: #300;
     background-size: 50px 50px;
 }
-/*Upholstery pattern by Nate Eagle - http://lea.verou.me/css3patterns/#upholstery*/
+/* Upholstery pattern by Nate Eagle - http://lea.verou.me/css3patterns/#upholstery */
 /* NOTE: I halved all px values to make pattern 50% smaller */

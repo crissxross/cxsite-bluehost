@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 // import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from '@angular/material';
 import 'hammerjs';
 
@@ -26,6 +27,7 @@ import { routing } from './app.routing';
     // CommonModule,
     FormsModule,
     HttpModule,
+    FlexLayoutModule.forRoot(),
     MaterialModule.forRoot(),
     ShowcaseModule,
     routing
