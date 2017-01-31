@@ -1,27 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
-import {Observable} from 'rxjs/Observable';
-
-import { DataService } from '../shared/data.service';
+import { FEATUREDWORKS } from './featured-works/featured-data';
+import { LISTWORKS } from './list-works/list-data';
 
 @Component({
   selector: 'app-showcase',
-  templateUrl: './showcase.component.html',
+  template: `
+  <app-featured-works [featuredWorks]="featuredWorks"></app-featured-works>
+  <app-list-works [listWorks]="listWorks"></app-list-works>
+  `,
   styleUrls: ['./showcase.component.css']
 })
-export class ShowcaseComponent implements OnInit {
+export class ShowcaseComponent {
 
-  featuredWork$: Observable<any>;
-  listWork$: Observable<any>;
+  featuredWorks = FEATUREDWORKS;
+  listWorks = LISTWORKS;
 
-  constructor(
-    private _dataService: DataService,
-    private _router: Router) { }
-
-  ngOnInit() {
-    this.featuredWork$ = this._dataService.getFeaturedWorks();
-    this.listWork$ = this._dataService.getListWorks();
-  }
+  constructor(private _router: Router) { }
 
 }

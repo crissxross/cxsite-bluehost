@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, trigger, state, style, animate, transition } from '@angular/core';
+import { Component, Input, trigger, state, style, animate, transition } from '@angular/core';
 
 @Component({
   selector: 'app-list-works',
@@ -17,13 +17,10 @@ import { Component, OnInit, Input, trigger, state, style, animate, transition } 
     ])
   ]
 })
-export class ListWorksComponent implements OnInit {
+export class ListWorksComponent {
 
   @Input() listWorks;
 
   constructor() {}
-
-  ngOnInit() {
-  }
 
 }

@@ -12,7 +12,6 @@ import { ShowcaseModule } from './showcase/showcase.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 // import { CollapseToggleDirective } from './shared/collapse-toggle.directive';
-import { DataService } from './shared/data.service';
 
 import { routing } from './app.routing';
 
@@ -32,7 +31,6 @@ import { routing } from './app.routing';
     ShowcaseModule,
     routing
   ],
-  providers: [DataService],
   entryComponents: [AppComponent],
   bootstrap: [AppComponent]
 })

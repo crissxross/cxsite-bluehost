@@ -1,6 +1,6 @@
 <div class="card-container">
 
-  <md-card *ngFor="let featuredWork of featuredWorks | async">
+  <md-card *ngFor="let featuredWork of featuredWorks">
 
     <md-card-title>{{featuredWork.title}}</md-card-title>
     <img md-card-image [alt]="featuredWork.id" src="assets/img/{{featuredWork.id}}.png">

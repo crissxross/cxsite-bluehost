@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, trigger, state, style, animate, transition } from '@angular/core';
+import { Component, Input, trigger, state, style, animate, transition } from '@angular/core';
 
 @Component({
   selector: 'app-featured-works',
@@ -17,13 +17,10 @@ import { Component, OnInit, Input, trigger, state, style, animate, transition } 
     ])
   ]
 })
-export class FeaturedWorksComponent implements OnInit {
+export class FeaturedWorksComponent {
 
   @Input() featuredWorks;
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

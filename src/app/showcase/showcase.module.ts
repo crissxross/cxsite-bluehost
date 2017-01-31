@@ -7,7 +7,6 @@ import { FeaturedWorksComponent } from './featured-works/featured-works.componen
 import { ListWorksComponent } from './list-works/list-works.component';
 import { CollapseToggleDirective } from '../shared/collapse-toggle.directive';
 
-import { DataService } from '../shared/data.service';
 
 @NgModule({
   imports: [
@@ -20,7 +19,6 @@ import { DataService } from '../shared/data.service';
     ListWorksComponent,
     CollapseToggleDirective
   ],
-  exports: [ ShowcaseComponent ],
-  providers: [ DataService ]
+  exports: [ ShowcaseComponent ]
 })
 export class ShowcaseModule { }

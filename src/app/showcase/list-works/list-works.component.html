@@ -1,5 +1,5 @@
 <div class="card-container">
-  <md-card *ngFor="let listWork of listWorks | async">
+  <md-card *ngFor="let listWork of listWorks">
     <md-card-title-group>
       <img md-card-sm-image [alt]="listWork.id" src="assets/img/{{listWork.id}}-thumb.png">
       <md-card-title>{{listWork.title}}</md-card-title>
