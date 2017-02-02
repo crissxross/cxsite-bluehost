@@ -14,8 +14,7 @@ md-sidenav-container {
 
 .cx-toolbar a:hover {
   color: #DDD;
-  background-color: hsla(0, 100%, 5%, 0.25);
-  /*text-decoration: underline;*/
+  background-color: hsla(0, 100%, 5%, 0.5);
 }
 
 .fill-remaining-space {
@@ -57,10 +56,10 @@ footer {
   margin-bottom: 10px;
   height: 50px;
   text-align: center;
-  /*font-size: 0.75em;*/
 }
 
 footer a {
   color: #BDBDBD;
   text-decoration: underline;
 }
+

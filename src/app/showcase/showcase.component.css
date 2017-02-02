@@ -1,14 +1,14 @@
-md-card {
-  width: 400px;
-  box-sizing: border-box;
-  margin: 16px;
-}
-
 .card-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
+}
+
+md-card {
+  width: 400px;
+  box-sizing: border-box;
+  margin: 16px;
 }
 
 md-card-footer {

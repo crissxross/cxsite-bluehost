@@ -6,9 +6,6 @@ import { Directive, HostBinding, HostListener, Input, Output, EventEmitter } fro
 })
 export class CollapseToggleDirective {
 
-  // @Input('collapsed') isCollapsed = true;
-  // @Output('collapsed') collapsedOutput = new EventEmitter();
-
   @Input() isCollapsed: boolean = true;
   @Output() collapsedOutput = new EventEmitter();
 
