@@ -7,8 +7,8 @@ import { LISTWORKS } from './list-works/list-data';
 @Component({
   selector: 'app-showcase',
   template: `
-  <app-featured-works [featuredWorks]="featuredWorks"></app-featured-works>
-  <app-list-works [listWorks]="listWorks"></app-list-works>
+    <app-featured-works [featuredWorks]="featuredWorks"></app-featured-works>
+    <app-list-works [listWorks]="listWorks"></app-list-works>
   `,
   styleUrls: ['./showcase.component.css']
 })

@@ -5,25 +5,25 @@
   align-items: flex-start;
 }
 
-md-card {
+mat-card {
   width: 400px;
   box-sizing: border-box;
   margin: 16px;
 }
 
-md-card-footer {
+mat-card-footer {
   color: #9A9A9A;
   font-size: 0.75em;
   line-height: 0.6em;
   padding-left: 16px;
 }
 
-md-card-content a {
+mat-card-content a {
   color: #A30018;
   text-decoration: none;
 }
 
-md-card-content a:hover {
+mat-card-content a:hover {
   text-decoration: underline;
 }
 

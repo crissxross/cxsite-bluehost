@@ -1,10 +1,10 @@
 <div class="card-container">
 
-  <md-card *ngFor="let featuredWork of featuredWorks">
+  <mat-card *ngFor="let featuredWork of featuredWorks">
 
-    <md-card-title>{{featuredWork.title}}</md-card-title>
-    <img md-card-image [alt]="featuredWork.id" src="assets/img/{{featuredWork.id}}.png">
-    <md-card-content>
+    <mat-card-title>{{featuredWork.title}}</mat-card-title>
+    <img mat-card-image [alt]="featuredWork.id" src="assets/img/{{featuredWork.id}}.png">
+    <mat-card-content>
       <p>{{featuredWork.description}}</p>
       <p>{{featuredWork.collab}}</p>
       <!-- MORE INFO -->
@@ -24,22 +24,22 @@
           </li>
         </ul>
       </div>
-    </md-card-content>
+    </mat-card-content>
 
-    <md-card-footer>
+    <mat-card-footer>
       <p>{{featuredWork.tech}}</p>
       <p>{{featuredWork.pubdate}}</p>
-    </md-card-footer>
+    </mat-card-footer>
 
-    <md-card-actions align="end">
-      <button md-raised-button collapseToggle #panel="collapsible">
+    <mat-card-actions align="end">
+      <button mat-raised-button collapseToggle #panel="collapsible">
         <span *ngIf="panel.isCollapsed">more info</span>
         <span *ngIf="!panel.isCollapsed">less info</span>
       </button>
 
-      <a md-raised-button md-anchor href={{featuredWork.workUrl}} target="_blank">PLAY</a>
-    </md-card-actions>
+      <a mat-raised-button mat-anchor href={{featuredWork.workUrl}} target="_blank">PLAY</a>
+    </mat-card-actions>
 
-  </md-card>
+  </mat-card>
 
 </div>

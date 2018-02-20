@@ -1,14 +1,14 @@
 <div class="card-container">
-  <md-card *ngFor="let listWork of listWorks">
-    <md-card-title-group>
-      <img md-card-sm-image [alt]="listWork.id" src="assets/img/{{listWork.id}}-thumb.png">
-      <md-card-title>{{listWork.title}}</md-card-title>
-      <md-card-subtitle>
+  <mat-card *ngFor="let listWork of listWorks">
+    <mat-card-title-group>
+      <img mat-card-sm-image [alt]="listWork.id" src="assets/img/{{listWork.id}}-thumb.png">
+      <mat-card-title>{{listWork.title}}</mat-card-title>
+      <mat-card-subtitle>
         {{listWork.description}}.
-      </md-card-subtitle>
-    </md-card-title-group>
+      </mat-card-subtitle>
+    </mat-card-title-group>
     <!-- MORE INFO -->
-      <md-card-content *ngIf="!panel.isCollapsed" [@panelState]="open">
+      <mat-card-content *ngIf="!panel.isCollapsed" [@panelState]="open">
         <p>{{listWork.moreinfo}}</p>
         <p><strong>{{listWork.title}}</strong> publications/exhibitions/performances:</p>
         <ul>
@@ -17,20 +17,20 @@
             {{accolade.name}}</a>
           </li>
         </ul>
-      </md-card-content>
+      </mat-card-content>
 
-    <md-card-footer>
+    <mat-card-footer>
       <p>{{listWork.tech}}</p>
       <p>{{listWork.pubdate}}</p>
-    </md-card-footer>
+    </mat-card-footer>
 
-    <md-card-actions align="end">
-      <button md-raised-button collapseToggle #panel="collapsible">
+    <mat-card-actions align="end">
+      <button mat-raised-button collapseToggle #panel="collapsible">
         <span *ngIf="panel.isCollapsed">more info</span>
         <span *ngIf="!panel.isCollapsed">less info</span>
       </button>
 
-      <a md-raised-button md-anchor href={{listWork.workUrl}} target="_blank">PLAY</a>
-    </md-card-actions>
-  </md-card>
+      <a mat-raised-button mat-anchor href={{listWork.workUrl}} target="_blank">PLAY</a>
+    </mat-card-actions>
+  </mat-card>
 </div>

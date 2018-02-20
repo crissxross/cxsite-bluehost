@@ -1,36 +1,36 @@
-<md-sidenav-container>
-  <md-sidenav #sidenav>
+<mat-sidenav-container>
+  <mat-sidenav #sidenav>
     <h2 class="side-title">{{title}}</h2>
-    <md-divider></md-divider>
-    <md-nav-list (click)="sidenav.close()">
-      <md-list-item>
-        <a md-line [routerLink]="['/showcase']">Showcase
-        <span md-line class="secondary">art, games &amp; interactive stories</span>
+    <mat-divider></mat-divider>
+    <mat-nav-list (click)="sidenav.close()">
+      <mat-list-item>
+        <a mat-line [routerLink]="['/showcase']">Showcase
+        <span mat-line class="secondary">art, games &amp; interactive stories</span>
         </a>
-      </md-list-item>
-      <md-list-item>
-        <a md-line [routerLink]="['/about']">About
-        <span md-line class="secondary">Christine Wilks</span>
+      </mat-list-item>
+      <mat-list-item>
+        <a mat-line [routerLink]="['/about']">About
+        <span mat-line class="secondary">Christine Wilks</span>
         </a>
-      </md-list-item>
-      <md-list-item>
-        <a md-line href="http://crissxross.net/wilx/">Blog
-        <span md-line class="secondary">includes more digital art</span>
+      </mat-list-item>
+      <mat-list-item>
+        <a mat-line href="http://crissxross.net/wilx/">Blog
+        <span mat-line class="secondary">includes more digital art</span>
         </a>
-      </md-list-item>
-    </md-nav-list>
-    <md-divider></md-divider>
-  </md-sidenav>
+      </mat-list-item>
+    </mat-nav-list>
+    <mat-divider></mat-divider>
+  </mat-sidenav>
 
-  <md-toolbar class="cx-toolbar">
-    <button md-icon-button (click)="sidenav.open()">
-      <md-icon>menu</md-icon>
+  <mat-toolbar class="cx-toolbar">
+    <button mat-icon-button (click)="sidenav.open()">
+      <mat-icon>menu</mat-icon>
     </button>
     <h1>{{title}}</h1>
     <!-- This fills the remaining space of the current row -->
     <span class="fill-remaining-space"></span>
     <div class="cx-strapline"><a [routerLink]="['/showcase']">creative works</a> <span class="cx-small">by</span> <a [routerLink]="['/about']">Christine Wilks</a></div>
-  </md-toolbar>
+  </mat-toolbar>
 
   <main>
   <router-outlet></router-outlet>
@@ -43,4 +43,4 @@
   </footer>
   </main>
 
-</md-sidenav-container>
+</mat-sidenav-container>
