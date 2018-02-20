@@ -2,7 +2,7 @@
   <md-sidenav #sidenav>
     <h2 class="side-title">{{title}}</h2>
     <md-divider></md-divider>
-    <md-nav-list>
+    <md-nav-list (click)="sidenav.close()">
       <md-list-item>
         <a md-line [routerLink]="['/showcase']">Showcase
         <span md-line class="secondary">art, games &amp; interactive stories</span>
