@@ -29,16 +29,15 @@
     <mat-card-footer>
       <p>{{featuredWork.tech}}</p>
       <p>{{featuredWork.pubdate}}</p>
+      <mat-card-actions align="end">
+        <button mat-raised-button collapseToggle #panel="collapsible">
+          <span *ngIf="panel.isCollapsed">more info</span>
+          <span *ngIf="!panel.isCollapsed">less info</span>
+        </button>
+
+        <a mat-raised-button mat-anchor href={{featuredWork.workUrl}} target="_blank">PLAY</a>
+      </mat-card-actions>
     </mat-card-footer>
-
-    <mat-card-actions align="end">
-      <button mat-raised-button collapseToggle #panel="collapsible">
-        <span *ngIf="panel.isCollapsed">more info</span>
-        <span *ngIf="!panel.isCollapsed">less info</span>
-      </button>
-
-      <a mat-raised-button mat-anchor href={{featuredWork.workUrl}} target="_blank">PLAY</a>
-    </mat-card-actions>
 
   </mat-card>
 
