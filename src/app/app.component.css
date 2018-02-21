@@ -1,3 +1,7 @@
+main {
+  display: grid;
+}
+
 mat-sidenav-container {
   background-color: transparent;
 }

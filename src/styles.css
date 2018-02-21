@@ -3,7 +3,7 @@
 @import '~normalize.css/normalize.css';
 
 /* Temporarily importing a prebuilt theme because my custom theme in angular-cli.json (commented out) doesn't seem to work */
-@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+/* @import '~@angular/material/prebuilt-themes/deeppurple-amber.css'; */
 /* @import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css'; */
 
 /* For a fullscreen sidenav so that md-sidenav-container takes up full space. See: https://material.angular.io/components/component/sidenav */
