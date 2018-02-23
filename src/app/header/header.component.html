@@ -1,0 +1,12 @@
+<mat-toolbar class="cx-header">
+  <button mat-icon-button (click)="toggleSidenav()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <!-- <button mat-icon-button (click)="sidenav.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button> -->
+  <h1>crissxross</h1>
+  <!-- This fills the remaining space of the current row -->
+  <span class="fill-remaining-space"></span>
+  <div class="cx-strapline"><a [routerLink]="['/showcase']">creative works</a> <span class="cx-small">by</span> <a [routerLink]="['/about']">Christine Wilks</a></div>
+</mat-toolbar>

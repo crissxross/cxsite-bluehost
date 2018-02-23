@@ -22,9 +22,10 @@
     </mat-card-content>
 
     <!-- MORE INFO -->
-    <!-- <mat-card-footer> -->
+    <mat-card-footer>
     <mat-expansion-panel (opened)="panelOpenState = true"
-                         (closed)="panelOpenState = false">
+                         (closed)="panelOpenState = false"
+                         #panel>
       <mat-expansion-panel-header>
         <mat-panel-title>
           More information
@@ -48,17 +49,11 @@
             {{accolade.name}}</a>
           </li>
         </ul>
+        <mat-action-row>
+          <button mat-button (click)="panel.close()">Close</button>
+        </mat-action-row>
     </mat-expansion-panel>
-  <!-- </mat-card-footer> -->
-
-    <!-- <mat-card-actions align="end">
-      <a mat-raised-button mat-anchor href={{featuredWork.workUrl}} target="_blank">PLAY</a>
-    </mat-card-actions> -->
-
-    <!-- <mat-card-footer>
-      <p>{{featuredWork.tech}}</p>
-      <p>{{featuredWork.pubdate}}</p>
-    </mat-card-footer> -->
+  </mat-card-footer>
 
   </mat-card>
 

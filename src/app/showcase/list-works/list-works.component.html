@@ -8,31 +8,44 @@
         {{listWork.description}}.
       </mat-card-subtitle>
     </mat-card-title-group>
+
     <!-- MORE INFO -->
-      <mat-card-content *ngIf="!panel.isCollapsed" [@panelState]="open">
-        <p>{{listWork.moreinfo}}</p>
-        <p><strong>{{listWork.title}}</strong> publications/exhibitions/performances:</p>
-        <ul>
-          <li *ngFor="let accolade of listWork.accolades">
-            <a href="{{accolade.url}}">
-            {{accolade.name}}</a>
-          </li>
-        </ul>
+      <mat-card-content>
+        <div class="inner-grid">
+          <p class="specs">{{listWork.tech}}</p>
+          <p class="specs">{{listWork.pubdate}}</p>
+          <a mat-fab
+            href={{listWork.workUrl}} target="_blank"
+            class="play">PLAY</a>
+        </div>
       </mat-card-content>
 
-    <mat-card-footer>
-      <p>{{listWork.tech}}</p>
-      <p>{{listWork.pubdate}}</p>
-    </mat-card-footer>
+      <mat-card-footer>
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                            (closed)="panelOpenState = false" #panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              More information
+            </mat-panel-title>
+            <mat-panel-description>
+              {{panelOpenState ? 'close' : 'open'}}
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <!-- Visible when panel is OPEN -->
+          <p>{{listWork.moreinfo}}</p>
+            <p><strong>{{listWork.title}}</strong> publications/exhibitions/performances:</p>
+            <ul>
+              <li *ngFor="let accolade of listWork.accolades">
+                <a href="{{accolade.url}}">
+                {{accolade.name}}</a>
+              </li>
+            </ul>
+            <mat-action-row>
+              <button mat-button (click)="panel.close()">Close</button>
+            </mat-action-row>
+          </mat-expansion-panel>
+      </mat-card-footer>
 
-    <mat-card-actions align="end">
-      <button mat-raised-button collapseToggle #panel="collapsible">
-        <span *ngIf="panel.isCollapsed">more info</span>
-        <span *ngIf="!panel.isCollapsed">less info</span>
-      </button>
-
-      <a mat-raised-button mat-anchor href={{listWork.workUrl}} target="_blank">PLAY</a>
-    </mat-card-actions>
   </mat-card>
 
 </div>

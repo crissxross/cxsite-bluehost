@@ -1,46 +1,22 @@
-<mat-toolbar class="cx-toolbar">
-  <button mat-icon-button (click)="sidenav.toggle()">
-    <mat-icon>menu</mat-icon>
-  </button>
-  <h1>{{title}}</h1>
-  <!-- This fills the remaining space of the current row -->
-  <span class="fill-remaining-space"></span>
-  <div class="cx-strapline"><a [routerLink]="['/showcase']">creative works</a> <span class="cx-small">by</span> <a [routerLink]="['/about']">Christine Wilks</a></div>
-</mat-toolbar>
+<app-header (sidenavToggle)="sidenav.toggle()"></app-header>
 
-<mat-sidenav-container>
-  <mat-sidenav #sidenav>
-    <h2 class="side-title">{{title}}</h2>
-    <mat-divider></mat-divider>
-    <mat-nav-list (click)="sidenav.close()">
-      <mat-list-item>
-        <a mat-line [routerLink]="['/showcase']">Showcase
-        <span mat-line class="secondary">art, games &amp; interactive stories</span>
-        </a>
-      </mat-list-item>
-      <mat-list-item>
-        <a mat-line [routerLink]="['/about']">About
-        <span mat-line class="secondary">Christine Wilks</span>
-        </a>
-      </mat-list-item>
-      <mat-list-item>
-        <a mat-line href="http://crissxross.net/wilx/">Blog
-        <span mat-line class="secondary">includes more digital art</span>
-        </a>
-      </mat-list-item>
-    </mat-nav-list>
-    <mat-divider></mat-divider>
+<mat-sidenav-container class="cx-container">
+
+  <!-- mode "over" is default -->
+  <mat-sidenav #sidenav mode="over"
+    fixedInViewport=true fixedTopGap=60 fixedBottomGap=0
+    class="cx-sidenav">
+    <app-sidenav-list (sidenavClose)="sidenav.close()"></app-sidenav-list>
   </mat-sidenav>
 
-  <main>
-  <router-outlet></router-outlet>
-  </main>
+  <mat-sidenav-content class="cx-content">
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+    <footer>
+      <app-footer></app-footer>
+    </footer>
+  </mat-sidenav-content>
 
 </mat-sidenav-container>
 
-<footer>
-  <small>Interactive Storytelling &amp; digital artworks by Christine Wilks<br>
-       This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution-NonCommercial-NoDerivs 2.0 UK: England &amp; Wales License</a><br>
-       <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/2.0/uk/80x15.png" /></a><br>
-       <a href="http://lea.verou.me/css3patterns/#upholstery">CSS3 upholstery pattern</a> by Nate Eagle</small>
-</footer>

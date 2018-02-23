@@ -1,6 +1,7 @@
 :host {
   display: grid;
   grid-gap: 1rem;
+  margin-top: 10px;
 }
 
 .card-container {
@@ -38,12 +39,12 @@ mat-card {
   /* margin: 16px; */
 }
 
-mat-card-footer {
+/* mat-card-footer {
   color: #9A9A9A;
   font-size: 0.75em;
   line-height: 0.6em;
   padding-left: 16px;
-}
+} */
 
 /* mat-card-content  */
 a {

@@ -1,0 +1,28 @@
+:host {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-column-gap: 1rem;
+  /* align-items: end; */
+  color: rgb(219, 219, 219);
+  font-size: 14px;
+  /* margin: 1rem; */
+}
+
+.credits-cc {
+  grid-column: 2 / 3;
+  margin-top: 20px;
+  text-align: center;
+}
+
+a {
+  color: rgb(219, 219, 219);
+}
+
+.credits-cc a {
+  text-decoration: underline;
+}
+
+/* .credits-cc {
+  align-self: end;
+} */
+
