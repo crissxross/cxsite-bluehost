@@ -6,6 +6,7 @@ export interface ArtWork {
   imageUrl: string;
   pubdate: string;
   tech: string;
+  displayType: 'featured' | 'list';
   collab?: string;
   publisher?: string;
   moreinfo?: string;

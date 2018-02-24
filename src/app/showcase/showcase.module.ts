@@ -6,6 +6,7 @@ import { MaterialModule } from '../material.module';
 import { ShowcaseComponent } from './showcase.component';
 import { FeaturedWorksComponent } from './featured-works/featured-works.component';
 import { ListWorksComponent } from './list-works/list-works.component';
+import { ArtworksComponent } from './artworks/artworks.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { ListWorksComponent } from './list-works/list-works.component';
     ShowcaseComponent,
     FeaturedWorksComponent,
     ListWorksComponent,
+    ArtworksComponent,
   ],
   exports: [ ShowcaseComponent ]
 })

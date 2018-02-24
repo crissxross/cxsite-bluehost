@@ -9,6 +9,7 @@ export const LISTWORKS: ArtWork[] = [
     imageUrl: '',
     pubdate: '2005',
     tech: 'Flash',
+    displayType: 'list',
     moreinfo: 'An animated digital poem with my own ambient music.',
     accolades: [
       {
@@ -33,6 +34,7 @@ export const LISTWORKS: ArtWork[] = [
     imageUrl: '',
     pubdate: '2005',
     tech: 'Flash',
+    displayType: 'list',
     // tslint:disable-next-line:max-line-length
     moreinfo: 'A poetic multimedia work in which I repurpose a series of disturbing images I made as a young art student, giving both the artist and her muse a voice. I discuss the work in more detail in an interview I gave for \'Female Icons\' (see below).',
     accolades: [
@@ -66,6 +68,7 @@ export const LISTWORKS: ArtWork[] = [
     imageUrl: '',
     pubdate: '2006',
     tech: 'Flash',
+    displayType: 'list',
     // tslint:disable-next-line:max-line-length
     moreinfo: 'An animated poem with my own ambient music based on my experience of visiting Gaudi\'s \'Sagrada Familia\' in Barcelona some years before.',
     accolades: [
@@ -83,6 +86,7 @@ export const LISTWORKS: ArtWork[] = [
     imageUrl: '',
     pubdate: '2004',
     tech: 'Flash',
+    displayType: 'list',
     // tslint:disable-next-line:max-line-length
     moreinfo: 'My first digital poem created in Flash where I begin to explore some possibilities of animating text (includes ambient sound).',
     accolades: [
@@ -100,6 +104,7 @@ export const LISTWORKS: ArtWork[] = [
     imageUrl: '',
     pubdate: '2004',
     tech: 'HTML',
+    displayType: 'list',
     moreinfo: 'Interactive and whimisical, this was my first creative work for the web. It combines text, image and sound.',
     accolades: [
       {

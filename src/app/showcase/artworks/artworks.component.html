@@ -1,19 +1,25 @@
-<div class="card-container">
+<div class="cards-container">
 
-  <mat-card *ngFor="let featuredWork of featuredWorks">
+  <mat-card *ngFor="let artwork of artworks">
 
-    <mat-card-title>{{featuredWork.title}}</mat-card-title>
-    <img mat-card-image [alt]="featuredWork.id" src="assets/img/{{featuredWork.id}}.png">
+    <mat-card-title>{{artwork.title}}</mat-card-title>
+
+    <img *ngIf="artwork.displayType === 'featured'"
+      mat-card-image [alt]="artwork.id"
+      src="assets/img/{{artwork.id}}.png">
+    <img *ngIf="artwork.displayType === 'list'"
+      mat-card-sm-image [alt]="artwork.id"
+      src="assets/img/{{artwork.id}}-thumb.png">
+
     <mat-card-content>
-
-      <p>{{featuredWork.description}}</p>
-      <p>{{featuredWork.collab}}</p>
+      <p>{{artwork.description}}</p>
+      <p>{{artwork.collab}}</p>
       <div class="inner-grid">
-        <p class="specs">{{featuredWork.pubdate}}</p>
-        <p class="specs">{{featuredWork.tech}}</p>
-        <!-- <a mat-raised-button href={{featuredWork.workUrl}} target="_blank">PLAY</a> -->
+        <p class="specs">{{artwork.pubdate}}</p>
+        <p class="specs">{{artwork.tech}}</p>
+        <!-- <a mat-raised-button href={{artwork.workUrl}} target="_blank">PLAY</a> -->
         <a mat-fab color="accent"
-          href={{featuredWork.workUrl}} target="_blank"
+          href={{artwork.workUrl}} target="_blank"
           matTooltip="Opens in a new window/tab"
           matTooltipPosition="before"
           class="play">PLAY</a>
@@ -34,16 +40,16 @@
         </mat-panel-description>
       </mat-expansion-panel-header>
       <!-- Visible when panel is OPEN -->
-      <p>{{featuredWork.moreinfo}}</p>
+      <p>{{artwork.moreinfo}}</p>
         <ul class="awards">
-          <li *ngFor="let award of featuredWork.awards">
+          <li *ngFor="let award of artwork.awards">
             <a href="{{award.url}}">
             {{award.name}}</a>
           </li>
         </ul>
-        <p><strong>{{featuredWork.title}}</strong> publications/exhibitions/performances:</p>
+        <p><strong>{{artwork.title}}</strong> publications/exhibitions/performances:</p>
         <ul>
-          <li *ngFor="let accolade of featuredWork.accolades">
+          <li *ngFor="let accolade of artwork.accolades">
             <a href="{{accolade.url}}">
             {{accolade.name}}</a>
           </li>
