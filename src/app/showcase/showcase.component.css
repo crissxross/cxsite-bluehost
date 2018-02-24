@@ -1,17 +1,1 @@
-/* :host {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
-  grid-gap: 1rem;
-  justify-content: center;
-  align-items: start;
-  margin-top: 10px;
-} */
 
-/* .card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
-  grid-gap: 1rem;
-  justify-content: center;
-  align-items: start;
-  margin: 0 1rem;
-} */

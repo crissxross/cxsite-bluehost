@@ -409,41 +409,16 @@ export const ARTWORKS: ArtWork[] = [
     ]
   },
   {
-    id: 'we-drank',
-    title: 'We Drank',
-    workUrl: 'http://crissxross.net/MovingPix/We_Drank.html',
-    description: 'Animated e-poem',
-    imageUrl: '',
-    pubdate: '2005',
-    tech: 'Flash',
-    displayType: 'list',
-    moreinfo: 'An animated digital poem with my own ambient music.',
-    accolades: [
-      {
-        name: '\'A Celebration\', Yorkshire Art Circus, Wakefield, 2006',
-        url: 'http://www.wdco.org/site/Yorkshire-Art-Circus/'
-      },
-      {
-        name: 'Multiversity tour, Ilkley Literature Festival Fringe, 2005',
-        url: 'http://www.ilkleyliteraturefestival.org.uk/whats-on/fringe-festival'
-      },
-      {
-        name: 'Multiversity tour, Off the Shelf Festival, Sheffield, 2005',
-        url: 'http://offtheshelf.org.uk/'
-      }
-    ]
-  },
-  {
     id: 'intravenus',
     title: 'IntraVenus',
     workUrl: 'http://crissxross.net/MovingPix/IntraVenus.html',
-    description: 'Dark musings on the artist\'s muse',
+    // tslint:disable-next-line:max-line-length
+    description: 'Dark musings on the artist\'s muse. A poetic multimedia work in which I repurpose a series of disturbing images I made as a young art student, giving both the artist and her muse a voice. ',
     imageUrl: '',
     pubdate: '2005',
     tech: 'Flash',
     displayType: 'list',
-    // tslint:disable-next-line:max-line-length
-    moreinfo: 'A poetic multimedia work in which I repurpose a series of disturbing images I made as a young art student, giving both the artist and her muse a voice. I discuss the work in more detail in an interview I gave for \'Female Icons\' (see below).',
+    moreinfo: 'I discuss the work in more detail in an interview I gave for \'Female Icons\' (see below).',
     accolades: [
       {
         name: 'Female Icons: it\'s not the gaze but the look',
@@ -468,16 +443,41 @@ export const ARTWORKS: ArtWork[] = [
     ]
   },
   {
+    id: 'we-drank',
+    title: 'We Drank',
+    workUrl: 'http://crissxross.net/MovingPix/We_Drank.html',
+    description: 'An animated digital poem with my own ambient music.',
+    imageUrl: '',
+    pubdate: '2005',
+    tech: 'Flash',
+    displayType: 'list',
+    moreinfo: '',
+    accolades: [
+      {
+        name: '\'A Celebration\', Yorkshire Art Circus, Wakefield, 2006',
+        url: 'http://www.wdco.org/site/Yorkshire-Art-Circus/'
+      },
+      {
+        name: 'Multiversity tour, Ilkley Literature Festival Fringe, 2005',
+        url: 'http://www.ilkleyliteraturefestival.org.uk/whats-on/fringe-festival'
+      },
+      {
+        name: 'Multiversity tour, Off the Shelf Festival, Sheffield, 2005',
+        url: 'http://offtheshelf.org.uk/'
+      }
+    ]
+  },
+  {
     id: 'heights',
     title: 'Heights',
     workUrl: 'http://crissxross.net/MovingPix/Heights.html',
-    description: 'Animated e-poem',
+    // tslint:disable-next-line:max-line-length
+    description: 'An animated poem with my own ambient music based on my experience of visiting Gaudi\'s \'Sagrada Familia\' in Barcelona some years before.',
     imageUrl: '',
     pubdate: '2006',
     tech: 'Flash',
     displayType: 'list',
-    // tslint:disable-next-line:max-line-length
-    moreinfo: 'An animated poem with my own ambient music based on my experience of visiting Gaudi\'s \'Sagrada Familia\' in Barcelona some years before.',
+    moreinfo: '',
     accolades: [
       {
         name: '\'A Celebration\', Yorkshire Art Circus, Wakefield, 2006',
@@ -489,13 +489,13 @@ export const ARTWORKS: ArtWork[] = [
     id: 'social-dis-ease',
     title: 'Social Dis-Ease',
     workUrl: 'http://crissxross.net/MovingPix/SocialDis-Ease.html',
-    description: 'Animated e-poem',
+    // tslint:disable-next-line:max-line-length
+    description: 'My first digital poem created in Flash where I begin to explore some possibilities of animating text and using sound.',
     imageUrl: '',
     pubdate: '2004',
     tech: 'Flash',
     displayType: 'list',
-    // tslint:disable-next-line:max-line-length
-    moreinfo: 'My first digital poem created in Flash where I begin to explore some possibilities of animating text (includes ambient sound).',
+    moreinfo: '',
     accolades: [
       {
         name: 'Launch of Yorkshire Art Circus Literary Magazine, Castleford, 2005',
@@ -507,12 +507,13 @@ export const ARTWORKS: ArtWork[] = [
     id: 'sitting-pretty',
     title: 'Sitting Pretty',
     workUrl: 'http://crissxross.net/MovingPix/BeforeWeBegin/index.html',
-    description: 'Hypertext with multimedia',
+    // tslint:disable-next-line:max-line-length
+    description: 'This interactive and whimisical \'Hypertext\' was my first creative work for the web, combining text, image and sound.',
     imageUrl: '',
     pubdate: '2004',
     tech: 'HTML',
     displayType: 'list',
-    moreinfo: 'Interactive and whimisical, this was my first creative work for the web. It combines text, image and sound.',
+    moreinfo: '',
     accolades: [
       {
         name: 'Web Poetry Slam at Incubation3: The 3rd trAce International Symposium on Writing and the Internet, Nottingham, UK, 2004',

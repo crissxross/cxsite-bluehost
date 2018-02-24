@@ -23,9 +23,11 @@
 }
 
 mat-card {
-  /* width: 400px; */
   box-sizing: border-box;
-  /* margin: 16px; */
+}
+
+.mat-card-sm-image {
+  margin-bottom: 8px;
 }
 
 /* mat-card-footer {
@@ -35,13 +37,11 @@ mat-card {
   padding-left: 16px;
 } */
 
-/* mat-card-content  */
 a {
   color: #A30018;
   text-decoration: none;
 }
 
-/* mat-card-content  */
 a:hover {
   text-decoration: underline;
 }

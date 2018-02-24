@@ -1,6 +1,7 @@
 <div class="card-container">
 
   <mat-card *ngFor="let listWork of listWorks">
+    
     <mat-card-title-group>
       <img mat-card-sm-image [alt]="listWork.id" src="assets/img/{{listWork.id}}-thumb.png">
       <mat-card-title>{{listWork.title}}</mat-card-title>

@@ -2,14 +2,17 @@
 
   <mat-card *ngFor="let artwork of artworks">
 
-    <mat-card-title>{{artwork.title}}</mat-card-title>
+    <mat-card-title-group>
+      <mat-card-title>{{artwork.title}}</mat-card-title>
+
+      <img *ngIf="artwork.displayType === 'list'"
+        mat-card-sm-image [alt]="artwork.id"
+        src="assets/img/{{artwork.id}}-thumb.png">
+    </mat-card-title-group>
 
     <img *ngIf="artwork.displayType === 'featured'"
       mat-card-image [alt]="artwork.id"
       src="assets/img/{{artwork.id}}.png">
-    <img *ngIf="artwork.displayType === 'list'"
-      mat-card-sm-image [alt]="artwork.id"
-      src="assets/img/{{artwork.id}}-thumb.png">
 
     <mat-card-content>
       <p>{{artwork.description}}</p>
