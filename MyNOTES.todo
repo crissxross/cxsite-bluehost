@@ -1,0 +1,22 @@
+NOTES re. material2 & Material Design:
+
+material2 media queries:
+  $mat-xsmall: 'max-width: 599px';
+  $mat-small: 'max-width: 959px';
+
+Material Design Layout Guidelines:
+  https://material.io/guidelines/layout/principles.html#
+
+dp (density-independent pixel):
+  In CSS "use px wherever dp or sp is stated"
+
+Material Design Baseline grids:
+
+  "All components align to an 8dp square baseline grid for mobile, tablet, and desktop. Iconography in toolbars align to a 4dp square baseline grid."
+
+  "Material design’s responsive UI is based on a 12-column grid layout."
+
+  "Margins and gutters can be 8, 16, 24, or 40dp wide."
+
+MD Typography:
+  "The basic set of styles are based on a typographic scale of 12, 14, 16, 20, and 34."

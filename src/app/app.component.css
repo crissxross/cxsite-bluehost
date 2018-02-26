@@ -1,47 +1,33 @@
+/* NOTE: material2 toolbar.scss default height values:
+
+  $mat-toolbar-height-desktop: 64px !default;
+  $mat-toolbar-height-mobile-portrait: 56px !default;
+  $mat-toolbar-height-mobile-landscape: 48px !default;
+
+  But NOTE: "The height for mobile landscape devices has been ignored" due to issues.
+
+  $mat-toolbar-row-padding: 16px !default;
+
+  Use media query to accommodate responsive toolbar */
 
 .cx-container {
   position: absolute;
-  top: 60px;
-  /* bottom: 60px; */
+  top: 56px;
+  bottom: 0;
   left: 0;
   right: 0;
   background-color: transparent;
   /* background-color: hsla(0, 0%, 30%, 0.75); */
 }
 
-.cx-content {
+@media screen and (min-width: 600px) {
+  .cx-container {
+    top: 64px;
+  }
+  .mat-drawer {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color: hsla(0, 100%, 5%, 0.5);
+  }
 }
 
-.cx-sidenav {
-  /* background-color: hsla(0, 100%, 5%, 0.5); */
-}
-
-/* This fills the remaining space, by using flexbox.
-Every toolbar row uses a flexbox row layout.*/
-.fill-remaining-space {
-  flex: 1 1 auto;
-}
-
-.cx-small {
-  font-size: 0.75em;
-  color: #DDD;
-}
-
-.secondary {
-  color: rgba(0,0,0,0.54);
-  font-size: 0.813em;
-  padding-top: 2px;
-}
-
-h1 {
-  font-size: 1.5em;
-}
-h2 {
-  font-size: 1.2em;
-}
-h3 {
-  font-size: .75em;
-  font-weight: normal;
-}
-
-
+/* .cx-content {} */

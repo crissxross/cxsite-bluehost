@@ -418,11 +418,11 @@ export const ARTWORKS: ArtWork[] = [
     pubdate: '2005',
     tech: 'Flash',
     displayType: 'list',
-    moreinfo: 'I discuss the work in more detail in an interview I gave for \'Female Icons\' (see below).',
+    moreinfo: 'I discuss the work in more detail in an interview I gave for De geuzen\'s \'Female Icons\' (link to interview coming soon).',
     accolades: [
       {
         name: 'Female Icons: it\'s not the gaze but the look',
-        url: 'http://www.geuzen.org/female_icons/?p=439'
+        url: 'http://www.geuzen.org/'
       },
       {
         name: '\'A Celebration\', Yorkshire Art Circus, Wakefield, 2006',

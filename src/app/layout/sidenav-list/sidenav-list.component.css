@@ -1,0 +1,26 @@
+
+/* to push below header */
+mat-nav-list {
+  margin-top: 56px;
+}
+
+.secondary {
+  color: rgba(0,0,0,0.54);
+  font-size: 12px;
+  padding-top: 2px;
+}
+
+@media screen and (min-width: 600px) {
+  mat-nav-list {
+    margin-top: 64px;
+  }
+  .mat-line {
+    color: white;
+  }
+  .secondary {
+    color: rgb(170, 170, 170);
+  }
+  .mat-nav-list .mat-list-item:hover {
+    background-color: rgba(0,0,0,0.15);
+  }
+}

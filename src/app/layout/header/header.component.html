@@ -1,0 +1,15 @@
+<mat-toolbar class="cx-header mat-elevation-z4">
+  <button mat-icon-button (click)="toggleSidenav()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <h1>crissxross</h1>
+  <span class="fill-remaining-space"></span>
+  <div class="extra-nav">
+    <a mat-button [routerLink]="['/showcase']">creative works</a>
+    <a mat-button [routerLink]="['/about']">Christine Wilks</a>
+    <!-- <div class="cx-strapline">
+      <a [routerLink]="['/showcase']">creative works</a> <span class="cx-small">by</span> <a [routerLink]="['/about']">Christine Wilks</a>
+    </div> -->
+  </div>
+</mat-toolbar>
+

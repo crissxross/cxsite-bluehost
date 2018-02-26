@@ -2,16 +2,16 @@
 .cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
-  grid-gap: 1rem;
+  grid-gap: 16px;
   justify-content: center;
   align-items: start;
-  margin: 0 1rem;
+  margin: 16px;
 }
 
 .inner-grid {
   display: grid;
-  grid-template-columns: auto 1fr minmax(80px, 100px);
-  grid-column-gap: 1rem;
+  grid-template-columns: auto 1fr minmax(80px, 96px);
+  grid-column-gap: 16px;
   align-items: center;
 }
 
@@ -30,12 +30,15 @@ mat-card {
   margin-bottom: 8px;
 }
 
-/* mat-card-footer {
-  color: #9A9A9A;
-  font-size: 0.75em;
-  line-height: 0.6em;
-  padding-left: 16px;
-} */
+.mat-expansion-panel-header-description {
+  order: -1;
+  flex-grow: 0;
+  margin-right: 8px;
+}
+
+.mat-action-row {
+  padding: 4px 8px 4px 24px;
+}
 
 a {
   color: #A30018;
@@ -47,15 +50,15 @@ a:hover {
 }
 
 ul {
-  padding-left: 20px;
-  font-size: 0.95em;
+  padding-left: 16px;
+  font-size: 12px;
 }
 li {
-  margin-top: 6px;
+  margin-top: 4px;
 }
 
 .awards {
-  font-size: 1em;
+  font-size: 14px;
   list-style-type: none;
   padding-left: 0;
 }

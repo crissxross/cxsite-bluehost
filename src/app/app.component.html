@@ -1,12 +1,16 @@
-<app-header (sidenavToggle)="sidenav.toggle()"></app-header>
+<app-header class="cx-dark-theme"
+  (sidenavToggle)="sidenav.toggle()"></app-header>
 
 <mat-sidenav-container class="cx-container">
 
   <!-- mode "over" is default -->
-  <mat-sidenav #sidenav mode="over"
-    fixedInViewport=true fixedTopGap=60 fixedBottomGap=0
-    class="cx-sidenav">
-    <app-sidenav-list (sidenavClose)="sidenav.close()"></app-sidenav-list>
+  <mat-sidenav #sidenav
+    [mode]="mobileQuery.matches ? 'over' : 'side'"
+    [opened]="mobileQuery.matches ? false : true"
+    fixedInViewport=true fixedTopGap=0 fixedBottomGap=0>
+    <app-sidenav-list *ngIf="mobileQuery.matches"
+      (sidenavClose)="sidenav.close()"></app-sidenav-list>
+    <app-sidenav-list  *ngIf="!mobileQuery.matches"></app-sidenav-list>
   </mat-sidenav>
 
   <mat-sidenav-content class="cx-content">
