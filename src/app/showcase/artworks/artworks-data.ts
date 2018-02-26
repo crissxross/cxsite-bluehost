@@ -253,16 +253,21 @@ export const ARTWORKS: ArtWork[] = [
     workUrl: 'http://crissxross.net/remixworx/Tabacka-6.html',
     title: 'Upside Down Chandelier',
     // tslint:disable-next-line:max-line-length
-    description: 'A digital installation by an international group of women artists responding to the idea of repurposing during our residency at DIG Gallery in a former Slovak tobacco factory which had employed mostly women.',
+    description: 'A digital installation by an international group of women artists responding to the idea of repurposing during our residency at DIG Gallery in a former Slovak tobacco factory which had employed mostly women. (Web version shown here.)',
     imageUrl: 'images/upsidedownchandelier.png',
     pubdate: '2013/2014',
-    tech: 'Flash (web version)',
+    tech: 'Flash',
     displayType: 'featured',
     collab: 'Made in collaboration with María Mencía, Jeneen Naji and Zuzana Husárová.',
     publisher: 'María Mencía',
     // tslint:disable-next-line:max-line-length
     moreinfo: '\"This multiplatform digital work references an event connected with the history of Košice and its tobacco factory from 1851 which employed mostly women workers. Some decades later, when St. Elizabeth\'s Cathedral was being renovated, the women workers donated a candle chandelier. The chandelier itself was repurposed twice – from the original candles, to gas lighting and with the advent of electricity, was turned upside down. In the installation, images of the chandelier from the cathedral are randomly generated and projected onto a screen in a flux of forms. Simultaneously the words connected with this story appear projected on the walls of the room, and phonetic sounds from Slovakian, Hungarian and German are generatively mixed in to create the soundscape of languages that were once spoken in the very same place by women workers\" (María Mencía 2013).',
     accolades: [
+      {
+        // tslint:disable-next-line:max-line-length
+        name: 'Electronic Literature Organization 2017: Electronic Literature: Affiliations, Communities, Translations; Exhibits, Porto, Portugal',
+        url: 'https://conference.eliterature.org/2017/exhibits'
+      }
       {
         name: 'Electronic Literature Organization 2014: Hold the Light, Media Arts Show, Milwaukee, USA',
         url: 'http://conference.eliterature.org/2014/media'
@@ -363,7 +368,7 @@ export const ARTWORKS: ArtWork[] = [
     description: 'Remixworx is a collaborative space for remixing visual poetry, e-poetry, playable media, animation, art, music, spoken word, texts and more. Initiated by Randy Adams as a blog in 2006, by 2014 it had grown to number well over 500 individual creative works. I\'ve contributed approximately 100 works.',
     imageUrl: 'images/devilsrope.jpg',
     pubdate: '2006 onwards',
-    tech: 'Various media (+ Flash)',
+    tech: 'various media (+ Flash)',
     displayType: 'featured',
     collab: 'Made by the R3M1XW0RX collective',
     publisher: 'R3M1XW0RX',

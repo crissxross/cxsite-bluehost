@@ -20,11 +20,25 @@
       <div class="inner-grid">
         <p class="specs">{{artwork.pubdate}}</p>
         <p class="specs">{{artwork.tech}}</p>
-        <a mat-mini-fab color="accent"
+        <a *ngIf="artwork.tech === 'Flash'"
+          mat-mini-fab color="accent"
           href={{artwork.workUrl}} target="_blank"
-          matTooltip="Opens in a new window/tab"
+          matTooltip="Requires Flash plugin"
           matTooltipPosition="before"
-          class="play">play</a>
+          class="play">
+          play</a>
+        <a *ngIf="artwork.tech !== 'Flash' && artwork.tech.includes('Flash')"
+          mat-mini-fab color="accent"
+          href={{artwork.workUrl}} target="_blank"
+          matTooltip="Some parts require Flash plugin"
+          matTooltipPosition="before"
+          class="play">
+          play</a>
+        <a *ngIf="!artwork.tech.includes('Flash')"
+          mat-mini-fab color="accent"
+          href={{artwork.workUrl}} target="_blank"
+          class="play">
+          play</a>
       </div>
     </mat-card-content>
 
