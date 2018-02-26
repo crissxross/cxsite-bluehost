@@ -27,6 +27,7 @@
 /* Display size */
 h1 {
   font-size: 34px;
+  padding-left: 8px;
 }
 
 /* This fills the remaining space, by using flexbox.
@@ -37,27 +38,12 @@ Every toolbar row uses a flexbox row layout.*/
 
 /* hide extra nav buttons on small screens */
 @media screen and (max-width: 599px) {
-  .extra-nav {
+  .extras {
     display: none;
   }
 }
 
-/* .cx-header a {
-  color: #FFF;
-  text-decoration: none;
+.cx-strapline {
+  font-weight: 400;
 }
 
-.cx-header a:hover {
-  color: #DDD;
-  background-color: hsla(0, 100%, 5%, 0.5);
-} */
-
-/* .cx-strapline {
-  text-align: right;
-  font-size: 14px;
-}
-
-.cx-small {
-  font-size: 12px;
-  color: #DDD;
-} */

@@ -1,7 +1,7 @@
 
 .cards-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 360px));
   grid-gap: 16px;
   justify-content: center;
   align-items: start;
@@ -20,6 +20,7 @@
 }
 .play {
   justify-self: end;
+  /* text-transform: uppercase; */
 }
 
 mat-card {
@@ -38,6 +39,18 @@ mat-card {
 
 .mat-action-row {
   padding: 4px 8px 4px 24px;
+}
+
+@media (max-width: 599px) {
+  .mat-expansion-panel-header {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  /* to counteract the 26px padding on .mat-expansion-panel-body */
+  .cx-panel-body {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
 }
 
 a {

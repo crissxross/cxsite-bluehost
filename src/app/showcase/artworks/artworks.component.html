@@ -20,12 +20,11 @@
       <div class="inner-grid">
         <p class="specs">{{artwork.pubdate}}</p>
         <p class="specs">{{artwork.tech}}</p>
-        <!-- <a mat-raised-button href={{artwork.workUrl}} target="_blank">PLAY</a> -->
-        <a mat-fab color="accent"
+        <a mat-mini-fab color="accent"
           href={{artwork.workUrl}} target="_blank"
           matTooltip="Opens in a new window/tab"
           matTooltipPosition="before"
-          class="play">PLAY</a>
+          class="play">play</a>
       </div>
     </mat-card-content>
 
@@ -43,22 +42,27 @@
         </mat-panel-description>
       </mat-expansion-panel-header>
       <!-- Visible when panel is OPEN -->
-      <p>{{artwork.moreinfo}}</p>
-        <ul class="awards">
-          <li *ngFor="let award of artwork.awards">
-            <a href="{{award.url}}">
-            {{award.name}}</a>
-          </li>
-        </ul>
-        <p><strong>{{artwork.title}}</strong> publications/exhibitions/performances:</p>
-        <ul>
-          <li *ngFor="let accolade of artwork.accolades">
-            <a href="{{accolade.url}}">
-            {{accolade.name}}</a>
-          </li>
-        </ul>
+      <div class="cx-panel-body">
+        <p>{{artwork.moreinfo}}</p>
+          <ul class="awards">
+            <li *ngFor="let award of artwork.awards">
+              <a href="{{award.url}}">
+              {{award.name}}</a>
+            </li>
+          </ul>
+          <p><strong>{{artwork.title}}</strong> publications/exhibitions/performances:</p>
+          <ul>
+            <li *ngFor="let accolade of artwork.accolades">
+              <a href="{{accolade.url}}">
+              {{accolade.name}}</a>
+            </li>
+          </ul>
+      </div>
         <mat-action-row>
-          <button mat-button (click)="panel.close()">Close</button>
+          <!-- <button mat-button (click)="panel.close()">Close</button> -->
+          <button mat-icon-button (click)="panel.close()">
+            <mat-icon>close</mat-icon>
+          </button>
         </mat-action-row>
     </mat-expansion-panel>
   </mat-card-footer>
