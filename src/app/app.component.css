@@ -30,4 +30,9 @@
   }
 }
 
+/* need main grid so that router animations work better */
+main {
+  display: grid;
+}
+
 /* .cx-content {} */
