@@ -267,7 +267,7 @@ export const ARTWORKS: ArtWork[] = [
         // tslint:disable-next-line:max-line-length
         name: 'Electronic Literature Organization 2017: Electronic Literature: Affiliations, Communities, Translations; Exhibits, Porto, Portugal',
         url: 'https://conference.eliterature.org/2017/exhibits'
-      }
+      },
       {
         name: 'Electronic Literature Organization 2014: Hold the Light, Media Arts Show, Milwaukee, USA',
         url: 'http://conference.eliterature.org/2014/media'
