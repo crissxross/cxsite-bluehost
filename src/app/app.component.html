@@ -14,8 +14,8 @@
   </mat-sidenav>
 
   <mat-sidenav-content>
-    <main>
-      <router-outlet></router-outlet>
+    <main [@routerTransition]="getPageState(o)">
+      <router-outlet #o="outlet"></router-outlet>
     </main>
     <footer>
       <app-footer></app-footer>

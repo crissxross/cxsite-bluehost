@@ -5,8 +5,8 @@ import { AboutComponent } from './about/about.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/showcase', pathMatch: 'full' },
-  { path: 'showcase', component: ShowcaseComponent },
-  { path: 'about', component: AboutComponent }
+  { path: 'showcase', component: ShowcaseComponent, data: {page: 'showcase'} },
+  { path: 'about', component: AboutComponent, data: {page: 'about'} }
 ];
 
 export const routing = RouterModule.forRoot(routes);
