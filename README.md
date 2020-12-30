@@ -1,8 +1,8 @@
-# cxsite
+# cxsite-bluehost
 
-**crissxross** showcase SPA built in Angular.
+Old version of **crissxross** showcase SPA built in Angular.
 
-*WORK IN PROGRESS...*
+*This version of crissxross showcase site was hosted on Bluehost and covered the period up to the end of December 2020 which was the end of life of Flash.*
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.7.0.
 
